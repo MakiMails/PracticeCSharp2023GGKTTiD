@@ -1,6 +1,7 @@
 ﻿using Z1;
 using MyLibrary;
 
+
 Aeroflot[] aeroflots = new Aeroflot[7];
 
 for (int i = 0; i < aeroflots.Length; i++)
@@ -21,7 +22,7 @@ foreach (var a in aeroflotsSort)
 
 string _typeAircraft = MyTool.Input("Введите тип самолета: ");
 
-if(aeroflotsSort.Any(s => s.TypeAircraft == _typeAircraft))//тут надо исправить
+if(aeroflotsSort.Any(s => s.TypeAircraft == _typeAircraft))
 {
     foreach(var a in aeroflotsSort)
     {
