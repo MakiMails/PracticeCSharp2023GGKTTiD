@@ -2,7 +2,7 @@
 using MyLibrary;
 
 
-Aeroflot[] aeroflots = new Aeroflot[7];
+Aeroflot[] aeroflots = new Aeroflot[3];
 
 for (int i = 0; i < aeroflots.Length; i++)
 {
