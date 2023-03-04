@@ -6,6 +6,11 @@ namespace z2.Model
     {
         private Train[] _trains;
 
+        public Train this[int i]
+        {
+            get { return _trains[i]; }
+        }
+
         public RailwayStation(int countTrain)
         {
             _trains = GetRandom(countTrain);

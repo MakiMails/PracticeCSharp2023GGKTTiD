@@ -20,7 +20,9 @@ ConsoleWriteLineGreen("Enter your destination: ");
 string destination = Console.ReadLine();
 WriteArrayTrainByDestination(rs, destination);
 
-
+Console.WriteLine($"{rs[1] > rs[0]}");
+rs.WriteTrainByIndex(1);
+rs.WriteTrainByIndex(0);
 
 void ConsoleWriteLineGreen(string mes)
 {
