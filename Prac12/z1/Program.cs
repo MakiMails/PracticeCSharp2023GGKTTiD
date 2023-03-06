@@ -11,7 +11,7 @@ Car[] cars = new Car[]
 
 foreach(Car car in cars)
 {
-    Console.WriteLine($"Расход томлива на 100км: {car.GetFuelConsumption()}");
+    Console.WriteLine($"Расход томлива на 100км: {car.GetFuelConsumption():.###}");
 }
 
 Console.WriteLine($"Cуммарного расхода горючего: {Car.GetAverageConsumption(cars)}");
