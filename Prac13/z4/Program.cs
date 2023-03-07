@@ -1,6 +1,4 @@
-﻿
-
-DelNum[] delNums = new DelNum[5];
+﻿DelNum[] delNums = new DelNum[5];
 for (int i = 0; i < 5; i++)
 {
     delNums[i] = RandomNum;
@@ -18,8 +16,6 @@ AnanimnyMetod am = delegate (DelNum[] delNums)
 
 
 Console.WriteLine($"Результат выполенения: {am(delNums)}");
-
-
 
 static int RandomNum()
 {
