@@ -13,4 +13,4 @@ blogger.CreateNewVideo("24/7 пишу код =)");
 
 blogger.Detach(subscriber);
 
-blogger.CreateNewVideo("Пишу код во сне -_-");
+blogger.CreateNewVideo("Пишу код");

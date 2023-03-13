@@ -5,11 +5,14 @@
 
     static void Main()
     {
+        Console.Write("Введите текст: ");
+        string text = Console.ReadLine();
+        
         events += TextToUpper;
         events += TextToLower;
         events += TextReverse;
-        //2 задание
-        WorkEvent(events, "sdfsd");
+        
+        WorkEvent(events, text);
     }
 
     static string TextToUpper(string text) => text.ToUpper();
@@ -20,7 +23,7 @@
         Array.Reverse(chars);
         return new string(chars);
     }
-    //2 задание
+    
     static void WorkEvent(WorkText workText, string text) =>
         Console.WriteLine(workText?.Invoke(text));
 }
