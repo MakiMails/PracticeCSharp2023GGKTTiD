@@ -1,6 +1,53 @@
-﻿//Имеется текстовый файл. Переписать в другой файл все его строки
-//с заменой в них символа 0 на символ 1 и наоборот.
+﻿string pathF1 = @"D:\PracticCSharp\Prac17\z4\Files\TextFile1.txt";
+string pathF2 = @"D:\PracticCSharp\Prac17\z4\Files\TextFile2.txt";
 
-string text = "0000123124 00350234502345 2340502300 000 0 3452345 23450";
-text = text.Replace("0", "1");
-Console.WriteLine(text);
+List<string> linesF1 = await GetTextFile(pathF1);
+RepleseList('0', '1', ref linesF1);
+await RecordInFile(pathF2, linesF1);
+
+List<string> linesF2 = await GetTextFile(pathF2);
+RepleseList('1', '0', ref linesF2);
+await RecordInFile(pathF1, linesF2);
+
+
+async Task<List<string>> GetTextFile(string path)
+{
+    using (StreamReader reader = new StreamReader(path))
+    {
+        string? line;
+        List<string> lines = new List<string>();
+
+        while ((line = await reader.ReadLineAsync()) != null)
+        {
+            lines.Add(line);
+        }
+        return lines;
+    }
+}
+
+async Task RecordInFile(string path, List<string> lines)
+{
+    using (StreamWriter writer = new StreamWriter(path, false))
+    {
+        foreach (string line in lines)
+        {
+            await writer.WriteLineAsync(line);
+        }
+    }
+}
+
+void RepleseList(char oldChar, char newChar,ref List<string> list)
+{
+    for (int i = 0; i < list.Count; i++)
+    {
+        list[i] = list[i].Replace(oldChar, newChar);
+    }
+}
+
+void WriteList(List<string> list)
+{
+    foreach (string elem in list)
+    {
+        Console.WriteLine(elem);
+    }
+}

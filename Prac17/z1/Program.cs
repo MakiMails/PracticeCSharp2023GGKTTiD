@@ -1,7 +1,4 @@
-﻿//Дан файл f, компонентами которого являются натуральные числа.
-//Получить в файле g все компоненты файла f, делящиеся на 3.
-
-string pathF = @"D:\PracticCSharp\Prac17\z1\Files\f.txt";
+﻿string pathF = @"D:\PracticCSharp\Prac17\z1\Files\f.txt";
 List<int> nums = await GetNumsDiv3InFile(pathF);
 string pathG = @"D:\PracticCSharp\Prac17\z1\Files\g.txt";
 await WriteNumToFile(pathG, nums);
