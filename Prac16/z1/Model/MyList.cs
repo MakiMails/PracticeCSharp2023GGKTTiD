@@ -31,11 +31,6 @@
             }
         }
 
-        public MyList(T[] arr)
-        {
-            this.arr = arr;
-        }
-
         public T[] GetArray()
         {
             if (arr != null)

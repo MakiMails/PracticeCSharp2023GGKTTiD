@@ -1,6 +1,6 @@
 ﻿using z1.Model;
 
-MyList<int> myList = new MyList<int>(new int[0]);
+MyList<int> myList = new MyList<int>();
 
 myList.Add(1);
 myList.Add(2);
