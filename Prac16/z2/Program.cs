@@ -5,7 +5,7 @@ MyDictionary<int, string> myDictionary = new MyDictionary<int, string>();
 myDictionary.Add(0, "Obj 1");
 myDictionary.Add(1, "Obj 2");
 myDictionary.Add(2, "Obj 3");
-myDictionary.Add(1, "Obj 4"); //Не добавится, так как есть уже такой ключ
+myDictionary.Add(1, "Obj 4"); 
 
 for(int i = 0; i < myDictionary.Length; i++)
 {

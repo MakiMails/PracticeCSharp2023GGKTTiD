@@ -1,5 +1,4 @@
-﻿
-using System.Diagnostics;
+﻿using System.Diagnostics;
 
 int resultThread1 = 0;
 Stopwatch sWatch = new Stopwatch();

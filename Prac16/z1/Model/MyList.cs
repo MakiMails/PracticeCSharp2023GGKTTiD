@@ -31,12 +31,16 @@
             }
         }
 
-        //3 задание
-        public static T[] GetArray<T>(this MyList<T> list)
+        public MyList(T[] arr)
         {
-            if (list.arr != null)
+            this.arr = arr;
+        }
+
+        public T[] GetArray()
+        {
+            if (arr != null)
             {
-                return list.arr;
+                return arr;
             }
             return default(T[]);
         }

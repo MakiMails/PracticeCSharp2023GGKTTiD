@@ -1,6 +1,6 @@
 ﻿using z1.Model;
 
-MyList<int> myList = new MyList<int>();
+MyList<int> myList = new MyList<int>(new int[0]);
 
 myList.Add(1);
 myList.Add(2);
@@ -14,7 +14,7 @@ for (int i = 0; i < myList.Length; i++)
 Console.WriteLine($"Size: {myList.Length}");
 Console.WriteLine();
 Console.WriteLine("Challenge a static method: ");
-WriteArray(MyList<int>.GetArray(myList));
+WriteArray(myList.GetArray());
 
 
 void WriteArray<T>(T[] arr)
