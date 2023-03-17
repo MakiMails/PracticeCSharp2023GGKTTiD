@@ -1,21 +1,34 @@
 ﻿namespace z3.Model
 {
-    //Описать класс для работы с двумерным массивом строк.
-    //Обеспечить перегрузку операции + для построчного соединения элементов.
+    /// <summary>
+    /// Класс двухмерный массив строк
+    /// </summary>
     public class TwodimensionalArray
     {
         private string[,] _arr;
 
+        /// <value name="CountElem">Количество элемента во всем <c>_arr</c></value>
         public int CountElem
         {
             get { return _arr.Length; }
         }
 
+        /// <summary>
+        /// Базовый конструктор класса
+        /// </summary>
+        /// <param name="sizeI">кол-во строк</param>
+        /// <param name="sizeJ">кол-во столбцов</param>
         public TwodimensionalArray(int sizeI, int sizeJ)
         {
             _arr = RandomArr(sizeI, sizeJ);
         }
 
+        /// <summary>
+        /// Перегруженный оператор +
+        /// </summary>
+        /// <param name="a1">Первый объект TwodimensionalArray для сложения</param>
+        /// <param name="a2">Второй объект TwodimensionalArray для сложения</param>
+        /// <returns>Возращает сумму двух элментов или же вернет null если размеры матриц не совпадают</returns>
         public static TwodimensionalArray operator +(TwodimensionalArray a1,
             TwodimensionalArray a2)
         {
@@ -36,6 +49,9 @@
             return null;
         }
 
+        /// <summary>
+        /// Вывод <c>_arr</c> на консоль
+        /// </summary>
         public void Write()
         {
             for (int i = 0; i <= _arr.GetUpperBound(0); i++)
@@ -48,6 +64,12 @@
             }
         }
 
+        /// <summary>
+        /// Создание массива строк и заполнением его рандомными значениями
+        /// </summary>
+        /// <param name="sizeI">кол-во строк</param>
+        /// <param name="sizeJ">кол-во столбцов</param>
+        /// <returns>Рандомно заполненый массив строк</returns>
         private string[,] RandomArr(int sizeI, int sizeJ)
         {
             string[,] newArr = new string[sizeI, sizeJ];
