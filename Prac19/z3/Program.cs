@@ -1,5 +1,4 @@
-﻿using System.Collections.Generic;
-using z3.Model;
+﻿using z3.Model;
 
 Diary diary = new Diary("MakiMails",
     new IdInfo(12412));

@@ -8,7 +8,7 @@ int b = Convert.ToInt32(Print("Введите b: "));
 List<int> nums = GetNumsInListStr(await GetTextFile(path));
 
 WriteList(nums);
-Console.WriteLine("Числа входяшие в диапозон от a до b");
+Console.WriteLine("Числа входящие в диапазон от a до b");
 WriteList(FindNumInRange(nums, a, b));
 Console.WriteLine("Меньше a:");
 WriteList(FindNumsLessNum(nums, a));
@@ -40,8 +40,9 @@ void WriteList<T>(List<T> list)
 {
     foreach (T elem in list)
     {
-        Console.WriteLine(elem);
+        Console.Write($"{elem} ");
     }
+    Console.WriteLine();
 }
 
 List<int> GetNumsInListStr(List<string> lines)
