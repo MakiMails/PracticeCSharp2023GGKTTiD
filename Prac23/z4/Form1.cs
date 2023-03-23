@@ -4,6 +4,9 @@ using z4.Enums;
 using z4.Model;
 using Bogus;
 using System.Text.RegularExpressions;
+using System.Windows.Forms;
+using static System.Net.Mime.MediaTypeNames;
+using System.IO;
 
 namespace z4
 {
@@ -118,30 +121,59 @@ namespace z4
 
         private void buttonSave_Click(object sender, EventArgs e)
         {
-            CheckAllsField();
-            string surname = textBoxSurname.Text;
-            string name = textBoxName.Text;
-            string midlleName = textBoxMiddleName.Text;
-            Gender gender = new Gender(GetGenderType());
-            DateOnly dateBirth = new DateOnly(Convert.ToInt32(comboBoxYear.Items[comboBoxYear.SelectedIndex].ToString()),
-                comboBoxMonth.SelectedIndex + 1,
-                Convert.ToInt32(comboBoxDateDay.Items[comboBoxDateDay.SelectedIndex].ToString()));
-            string placeResidence = comboBoxPlaceResidence.Text;
-            string email = textBoxEmail.Text;
-            MobOperatorType mobOperatorType = (MobOperatorType)Enum.Parse(typeof(MobOperatorType), comboBoxMobOperator.Text);
-            string mobNum = textBoxModNum.Text;
-            string workExp = GetWorkEpx();
-            Wages wages = new Wages(numericUpDownWagesMin.Value, numericUpDownWagesMax.Value);
-            OtherInfo otherInfo = new OtherInfo(checkBoxAuto.Checked, checkBoxDriversLicense.Checked,
-                GetRightsCategorys());
-            string workSchedule = GetWorkSchedule();
+            if (CheckAllsField())
+            {
+                string surname = textBoxSurname.Text;
+                string name = textBoxName.Text;
+                string midlleName = textBoxMiddleName.Text;
+                Gender gender = new Gender(GetGenderType());
+                DateOnly dateBirth = new DateOnly(Convert.ToInt32(comboBoxYear.Items[comboBoxYear.SelectedIndex].ToString()),
+                    comboBoxMonth.SelectedIndex + 1,
+                    Convert.ToInt32(comboBoxDateDay.Items[comboBoxDateDay.SelectedIndex].ToString()));
+                string placeResidence = comboBoxPlaceResidence.Text;
+                string email = textBoxEmail.Text;
+                MobOperatorType mobOperatorType = (MobOperatorType)Enum.Parse(typeof(MobOperatorType), comboBoxMobOperator.Text);
+                string mobNum = textBoxModNum.Text;
+                string workExp = GetWorkEpx();
+                Wages wages = new Wages(numericUpDownWagesMin.Value, numericUpDownWagesMax.Value);
+                OtherInfo otherInfo = new OtherInfo(checkBoxAuto.Checked, checkBoxDriversLicense.Checked,
+                    GetRightsCategorys());
+                string workSchedule = GetWorkSchedule();
 
-            Resume resume = new Resume(surname, name, midlleName, gender, dateBirth, placeResidence,
-                email, mobOperatorType, mobNum, workExp, wages, otherInfo, workSchedule);
-            textBoxResume.Text += resume;
+                Resume resume = new Resume(surname, name, midlleName, gender, dateBirth, placeResidence,
+                    email, mobOperatorType, mobNum, workExp, wages, otherInfo, workSchedule);
+                textBoxResume.Clear();
+                textBoxResume.Text += resume;
+                SaveFileDialog saveFileDialog = new SaveFileDialog();
+                saveFileDialog.Filter = "Text files(*.txt)|*.txt|All files(*.*)|*.*";
+
+
+                if (saveFileDialog.ShowDialog() == DialogResult.Cancel)
+                    return;
+                string path = saveFileDialog.FileName;
+                Task.Run(() => Save(path,resume.ToString()));
+            }
+
         }
 
-        private void CheckAllsField()
+        private async void Save(string path, string text)
+        {
+            string[] lines = text.Split("\n");
+            
+            using (StreamWriter writer = new StreamWriter(path, false))
+            {
+                foreach (string line in lines)
+                {
+                    writer.Write(line);
+                }
+            }
+            MessageBox.Show(
+                "Ğåçşìå ñîõğàíåííî.",
+                "",
+                MessageBoxButtons.OK);
+        }
+
+        private bool CheckAllsField()
         {
             try
             {
@@ -183,7 +215,7 @@ namespace z4
                 {
                     throw new Exception("Ìàêñèìàëüíàÿ çàğïëàòà íå äîëæíà ğàâíÿòñÿ íóëş");
                 }
-
+                return true;
             }
             catch(Exception ex)
             {
@@ -191,6 +223,7 @@ namespace z4
                 $"{ex.Message}",
                 "Îøèáêà",
                 MessageBoxButtons.OK);
+                return false;
             }
         }
 
@@ -299,7 +332,22 @@ namespace z4
 
         private void buttonClearForm_Click(object sender, EventArgs e)
         {
-
+            textBoxSurname.Clear();
+            textBoxName.Clear();
+            textBoxModNum.Clear();
+            textBoxEmail.Clear();
+            textBoxModNum.Clear();
+            checkBoxAuto.Checked = false;
+            checkBoxDriversLicense.Checked = false;
+            groupBoxRightsÑategory.Enabled = false;
+            checkBoxÑategoryA.Checked = false;
+            checkBoxÑategoryB.Checked = false;
+            checkBoxÑategoryC.Checked = false;
+            checkBoxÑategoryD.Checked = false;
+            numericUpDownWagesMin.Value = 0;
+            numericUpDownWagesMax.Value = 0;
+            textBoxResume.Clear();
         }
+
     }
 }
