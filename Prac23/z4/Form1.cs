@@ -8,6 +8,8 @@ using System.Windows.Forms;
 using static System.Net.Mime.MediaTypeNames;
 using System.IO;
 
+using System.Threading;
+
 namespace z4
 {
     public partial class Form1 : Form
@@ -19,6 +21,7 @@ namespace z4
             InitializeDate();
             InitializePlaceResidence();
             InitializeMobOperator();
+            Thread.CurrentThread.CurrentUICulture = Thread.CurrentThread.CurrentCulture;
         }
 
         private void InitializeDate()
@@ -29,7 +32,7 @@ namespace z4
             }
             comboBoxYear.SelectedIndex = 0;
 
-            CultureInfo ci = new CultureInfo("ru-RU");
+            CultureInfo ci = new CultureInfo(Thread.CurrentThread.CurrentCulture.Name);
             DateTimeFormatInfo dtfi = ci.DateTimeFormat;
             for (int i = 0; i < 12; i++)
             {
@@ -44,7 +47,15 @@ namespace z4
 
         private void InitializePlaceResidence()
         {
-            Faker faker = new Faker("ru");
+            Faker faker;
+            if (Thread.CurrentThread.CurrentCulture.Name == "ru-Ru")
+            {
+                faker = new Faker("ru");
+            }
+            else
+            {
+                faker = new Faker();
+            }
             for (int i = 0; i < 50; i++)
             {
                 comboBoxPlaceResidence.Items.Add(faker.Address.City());
@@ -349,5 +360,9 @@ namespace z4
             textBoxResume.Clear();
         }
 
+        private void buttonInfo_Click(object sender, EventArgs e)
+        {
+            Help.ShowHelp(this, helpProviderMain.HelpNamespace);
+        }
     }
 }

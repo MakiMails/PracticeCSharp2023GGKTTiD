@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.labelSurname = new System.Windows.Forms.Label();
             this.textBoxSurname = new System.Windows.Forms.TextBox();
             this.textBoxName = new System.Windows.Forms.TextBox();
@@ -79,6 +80,8 @@
             this.labelResume = new System.Windows.Forms.Label();
             this.buttonSave = new System.Windows.Forms.Button();
             this.buttonClearForm = new System.Windows.Forms.Button();
+            this.helpProviderMain = new System.Windows.Forms.HelpProvider();
+            this.buttonInfo = new System.Windows.Forms.Button();
             this.groupBoxGender.SuspendLayout();
             this.groupBoxDateBirth.SuspendLayout();
             this.groupBoxWorkExp.SuspendLayout();
@@ -92,527 +95,569 @@
             // 
             // labelSurname
             // 
-            this.labelSurname.AutoSize = true;
-            this.labelSurname.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.labelSurname.Location = new System.Drawing.Point(12, 20);
+            resources.ApplyResources(this.labelSurname, "labelSurname");
+            this.helpProviderMain.SetHelpKeyword(this.labelSurname, resources.GetString("labelSurname.HelpKeyword"));
+            this.helpProviderMain.SetHelpNavigator(this.labelSurname, ((System.Windows.Forms.HelpNavigator)(resources.GetObject("labelSurname.HelpNavigator"))));
+            this.helpProviderMain.SetHelpString(this.labelSurname, resources.GetString("labelSurname.HelpString"));
             this.labelSurname.Name = "labelSurname";
-            this.labelSurname.Size = new System.Drawing.Size(58, 15);
-            this.labelSurname.TabIndex = 0;
-            this.labelSurname.Text = "Фамилия";
+            this.helpProviderMain.SetShowHelp(this.labelSurname, ((bool)(resources.GetObject("labelSurname.ShowHelp"))));
             // 
             // textBoxSurname
             // 
-            this.textBoxSurname.Location = new System.Drawing.Point(76, 17);
+            resources.ApplyResources(this.textBoxSurname, "textBoxSurname");
+            this.helpProviderMain.SetHelpKeyword(this.textBoxSurname, resources.GetString("textBoxSurname.HelpKeyword"));
+            this.helpProviderMain.SetHelpNavigator(this.textBoxSurname, ((System.Windows.Forms.HelpNavigator)(resources.GetObject("textBoxSurname.HelpNavigator"))));
+            this.helpProviderMain.SetHelpString(this.textBoxSurname, resources.GetString("textBoxSurname.HelpString"));
             this.textBoxSurname.Name = "textBoxSurname";
-            this.textBoxSurname.Size = new System.Drawing.Size(203, 23);
-            this.textBoxSurname.TabIndex = 1;
+            this.helpProviderMain.SetShowHelp(this.textBoxSurname, ((bool)(resources.GetObject("textBoxSurname.ShowHelp"))));
             // 
             // textBoxName
             // 
-            this.textBoxName.Location = new System.Drawing.Point(76, 46);
+            resources.ApplyResources(this.textBoxName, "textBoxName");
+            this.helpProviderMain.SetHelpKeyword(this.textBoxName, resources.GetString("textBoxName.HelpKeyword"));
+            this.helpProviderMain.SetHelpNavigator(this.textBoxName, ((System.Windows.Forms.HelpNavigator)(resources.GetObject("textBoxName.HelpNavigator"))));
+            this.helpProviderMain.SetHelpString(this.textBoxName, resources.GetString("textBoxName.HelpString"));
             this.textBoxName.Name = "textBoxName";
-            this.textBoxName.Size = new System.Drawing.Size(203, 23);
-            this.textBoxName.TabIndex = 3;
+            this.helpProviderMain.SetShowHelp(this.textBoxName, ((bool)(resources.GetObject("textBoxName.ShowHelp"))));
             // 
             // labelName
             // 
-            this.labelName.AutoSize = true;
-            this.labelName.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.labelName.Location = new System.Drawing.Point(39, 49);
+            resources.ApplyResources(this.labelName, "labelName");
+            this.helpProviderMain.SetHelpKeyword(this.labelName, resources.GetString("labelName.HelpKeyword"));
+            this.helpProviderMain.SetHelpNavigator(this.labelName, ((System.Windows.Forms.HelpNavigator)(resources.GetObject("labelName.HelpNavigator"))));
+            this.helpProviderMain.SetHelpString(this.labelName, resources.GetString("labelName.HelpString"));
             this.labelName.Name = "labelName";
-            this.labelName.Size = new System.Drawing.Size(31, 15);
-            this.labelName.TabIndex = 2;
-            this.labelName.Text = "Имя";
+            this.helpProviderMain.SetShowHelp(this.labelName, ((bool)(resources.GetObject("labelName.ShowHelp"))));
             // 
             // textBoxMiddleName
             // 
-            this.textBoxMiddleName.Location = new System.Drawing.Point(76, 75);
+            resources.ApplyResources(this.textBoxMiddleName, "textBoxMiddleName");
+            this.helpProviderMain.SetHelpKeyword(this.textBoxMiddleName, resources.GetString("textBoxMiddleName.HelpKeyword"));
+            this.helpProviderMain.SetHelpNavigator(this.textBoxMiddleName, ((System.Windows.Forms.HelpNavigator)(resources.GetObject("textBoxMiddleName.HelpNavigator"))));
+            this.helpProviderMain.SetHelpString(this.textBoxMiddleName, resources.GetString("textBoxMiddleName.HelpString"));
             this.textBoxMiddleName.Name = "textBoxMiddleName";
-            this.textBoxMiddleName.Size = new System.Drawing.Size(203, 23);
-            this.textBoxMiddleName.TabIndex = 5;
+            this.helpProviderMain.SetShowHelp(this.textBoxMiddleName, ((bool)(resources.GetObject("textBoxMiddleName.ShowHelp"))));
             // 
             // labelMiddleName
             // 
-            this.labelMiddleName.AutoSize = true;
-            this.labelMiddleName.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.labelMiddleName.Location = new System.Drawing.Point(12, 78);
+            resources.ApplyResources(this.labelMiddleName, "labelMiddleName");
+            this.helpProviderMain.SetHelpKeyword(this.labelMiddleName, resources.GetString("labelMiddleName.HelpKeyword"));
+            this.helpProviderMain.SetHelpNavigator(this.labelMiddleName, ((System.Windows.Forms.HelpNavigator)(resources.GetObject("labelMiddleName.HelpNavigator"))));
+            this.helpProviderMain.SetHelpString(this.labelMiddleName, resources.GetString("labelMiddleName.HelpString"));
             this.labelMiddleName.Name = "labelMiddleName";
-            this.labelMiddleName.Size = new System.Drawing.Size(58, 15);
-            this.labelMiddleName.TabIndex = 4;
-            this.labelMiddleName.Text = "Отчество";
+            this.helpProviderMain.SetShowHelp(this.labelMiddleName, ((bool)(resources.GetObject("labelMiddleName.ShowHelp"))));
             // 
             // groupBoxGender
             // 
+            resources.ApplyResources(this.groupBoxGender, "groupBoxGender");
             this.groupBoxGender.Controls.Add(this.radioButtonGenderWoman);
             this.groupBoxGender.Controls.Add(this.radioButtonGenderMan);
-            this.groupBoxGender.Location = new System.Drawing.Point(342, 12);
+            this.helpProviderMain.SetHelpKeyword(this.groupBoxGender, resources.GetString("groupBoxGender.HelpKeyword"));
+            this.helpProviderMain.SetHelpNavigator(this.groupBoxGender, ((System.Windows.Forms.HelpNavigator)(resources.GetObject("groupBoxGender.HelpNavigator"))));
+            this.helpProviderMain.SetHelpString(this.groupBoxGender, resources.GetString("groupBoxGender.HelpString"));
             this.groupBoxGender.Name = "groupBoxGender";
-            this.groupBoxGender.Size = new System.Drawing.Size(174, 86);
-            this.groupBoxGender.TabIndex = 6;
+            this.helpProviderMain.SetShowHelp(this.groupBoxGender, ((bool)(resources.GetObject("groupBoxGender.ShowHelp"))));
             this.groupBoxGender.TabStop = false;
-            this.groupBoxGender.Text = "Пол";
             // 
             // radioButtonGenderWoman
             // 
-            this.radioButtonGenderWoman.AutoSize = true;
-            this.radioButtonGenderWoman.CheckAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.radioButtonGenderWoman.Location = new System.Drawing.Point(8, 46);
+            resources.ApplyResources(this.radioButtonGenderWoman, "radioButtonGenderWoman");
+            this.helpProviderMain.SetHelpKeyword(this.radioButtonGenderWoman, resources.GetString("radioButtonGenderWoman.HelpKeyword"));
+            this.helpProviderMain.SetHelpNavigator(this.radioButtonGenderWoman, ((System.Windows.Forms.HelpNavigator)(resources.GetObject("radioButtonGenderWoman.HelpNavigator"))));
+            this.helpProviderMain.SetHelpString(this.radioButtonGenderWoman, resources.GetString("radioButtonGenderWoman.HelpString"));
             this.radioButtonGenderWoman.Name = "radioButtonGenderWoman";
-            this.radioButtonGenderWoman.Size = new System.Drawing.Size(75, 19);
-            this.radioButtonGenderWoman.TabIndex = 1;
-            this.radioButtonGenderWoman.Text = "Женский";
+            this.helpProviderMain.SetShowHelp(this.radioButtonGenderWoman, ((bool)(resources.GetObject("radioButtonGenderWoman.ShowHelp"))));
             this.radioButtonGenderWoman.UseVisualStyleBackColor = true;
             // 
             // radioButtonGenderMan
             // 
-            this.radioButtonGenderMan.AutoSize = true;
+            resources.ApplyResources(this.radioButtonGenderMan, "radioButtonGenderMan");
             this.radioButtonGenderMan.CausesValidation = false;
             this.radioButtonGenderMan.Checked = true;
-            this.radioButtonGenderMan.Location = new System.Drawing.Point(8, 21);
+            this.helpProviderMain.SetHelpKeyword(this.radioButtonGenderMan, resources.GetString("radioButtonGenderMan.HelpKeyword"));
+            this.helpProviderMain.SetHelpNavigator(this.radioButtonGenderMan, ((System.Windows.Forms.HelpNavigator)(resources.GetObject("radioButtonGenderMan.HelpNavigator"))));
+            this.helpProviderMain.SetHelpString(this.radioButtonGenderMan, resources.GetString("radioButtonGenderMan.HelpString"));
             this.radioButtonGenderMan.Name = "radioButtonGenderMan";
-            this.radioButtonGenderMan.Size = new System.Drawing.Size(77, 19);
-            this.radioButtonGenderMan.TabIndex = 0;
+            this.helpProviderMain.SetShowHelp(this.radioButtonGenderMan, ((bool)(resources.GetObject("radioButtonGenderMan.ShowHelp"))));
             this.radioButtonGenderMan.TabStop = true;
-            this.radioButtonGenderMan.Text = "Мужской";
             this.radioButtonGenderMan.UseVisualStyleBackColor = true;
             // 
             // groupBoxDateBirth
             // 
+            resources.ApplyResources(this.groupBoxDateBirth, "groupBoxDateBirth");
             this.groupBoxDateBirth.Controls.Add(this.labelYear);
             this.groupBoxDateBirth.Controls.Add(this.comboBoxYear);
             this.groupBoxDateBirth.Controls.Add(this.labelMonth);
             this.groupBoxDateBirth.Controls.Add(this.comboBoxMonth);
             this.groupBoxDateBirth.Controls.Add(this.labelDay);
             this.groupBoxDateBirth.Controls.Add(this.comboBoxDateDay);
-            this.groupBoxDateBirth.Location = new System.Drawing.Point(12, 119);
+            this.helpProviderMain.SetHelpKeyword(this.groupBoxDateBirth, resources.GetString("groupBoxDateBirth.HelpKeyword"));
+            this.helpProviderMain.SetHelpNavigator(this.groupBoxDateBirth, ((System.Windows.Forms.HelpNavigator)(resources.GetObject("groupBoxDateBirth.HelpNavigator"))));
+            this.helpProviderMain.SetHelpString(this.groupBoxDateBirth, resources.GetString("groupBoxDateBirth.HelpString"));
             this.groupBoxDateBirth.Name = "groupBoxDateBirth";
-            this.groupBoxDateBirth.Size = new System.Drawing.Size(504, 86);
-            this.groupBoxDateBirth.TabIndex = 7;
+            this.helpProviderMain.SetShowHelp(this.groupBoxDateBirth, ((bool)(resources.GetObject("groupBoxDateBirth.ShowHelp"))));
             this.groupBoxDateBirth.TabStop = false;
-            this.groupBoxDateBirth.Text = "Дата рождения";
             // 
             // labelYear
             // 
-            this.labelYear.AutoSize = true;
-            this.labelYear.Location = new System.Drawing.Point(233, 30);
+            resources.ApplyResources(this.labelYear, "labelYear");
+            this.helpProviderMain.SetHelpKeyword(this.labelYear, resources.GetString("labelYear.HelpKeyword"));
+            this.helpProviderMain.SetHelpNavigator(this.labelYear, ((System.Windows.Forms.HelpNavigator)(resources.GetObject("labelYear.HelpNavigator"))));
+            this.helpProviderMain.SetHelpString(this.labelYear, resources.GetString("labelYear.HelpString"));
             this.labelYear.Name = "labelYear";
-            this.labelYear.Size = new System.Drawing.Size(26, 15);
-            this.labelYear.TabIndex = 5;
-            this.labelYear.Text = "Год";
+            this.helpProviderMain.SetShowHelp(this.labelYear, ((bool)(resources.GetObject("labelYear.ShowHelp"))));
             // 
             // comboBoxYear
             // 
+            resources.ApplyResources(this.comboBoxYear, "comboBoxYear");
             this.comboBoxYear.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxYear.FormattingEnabled = true;
-            this.comboBoxYear.Location = new System.Drawing.Point(233, 48);
+            this.helpProviderMain.SetHelpKeyword(this.comboBoxYear, resources.GetString("comboBoxYear.HelpKeyword"));
+            this.helpProviderMain.SetHelpNavigator(this.comboBoxYear, ((System.Windows.Forms.HelpNavigator)(resources.GetObject("comboBoxYear.HelpNavigator"))));
+            this.helpProviderMain.SetHelpString(this.comboBoxYear, resources.GetString("comboBoxYear.HelpString"));
             this.comboBoxYear.Name = "comboBoxYear";
-            this.comboBoxYear.Size = new System.Drawing.Size(78, 23);
-            this.comboBoxYear.TabIndex = 4;
+            this.helpProviderMain.SetShowHelp(this.comboBoxYear, ((bool)(resources.GetObject("comboBoxYear.ShowHelp"))));
             // 
             // labelMonth
             // 
-            this.labelMonth.AutoSize = true;
-            this.labelMonth.Location = new System.Drawing.Point(80, 30);
+            resources.ApplyResources(this.labelMonth, "labelMonth");
+            this.helpProviderMain.SetHelpKeyword(this.labelMonth, resources.GetString("labelMonth.HelpKeyword"));
+            this.helpProviderMain.SetHelpNavigator(this.labelMonth, ((System.Windows.Forms.HelpNavigator)(resources.GetObject("labelMonth.HelpNavigator"))));
+            this.helpProviderMain.SetHelpString(this.labelMonth, resources.GetString("labelMonth.HelpString"));
             this.labelMonth.Name = "labelMonth";
-            this.labelMonth.Size = new System.Drawing.Size(43, 15);
-            this.labelMonth.TabIndex = 3;
-            this.labelMonth.Text = "Месяц";
+            this.helpProviderMain.SetShowHelp(this.labelMonth, ((bool)(resources.GetObject("labelMonth.ShowHelp"))));
             // 
             // comboBoxMonth
             // 
+            resources.ApplyResources(this.comboBoxMonth, "comboBoxMonth");
             this.comboBoxMonth.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxMonth.FormattingEnabled = true;
-            this.comboBoxMonth.Location = new System.Drawing.Point(80, 48);
+            this.helpProviderMain.SetHelpKeyword(this.comboBoxMonth, resources.GetString("comboBoxMonth.HelpKeyword"));
+            this.helpProviderMain.SetHelpNavigator(this.comboBoxMonth, ((System.Windows.Forms.HelpNavigator)(resources.GetObject("comboBoxMonth.HelpNavigator"))));
+            this.helpProviderMain.SetHelpString(this.comboBoxMonth, resources.GetString("comboBoxMonth.HelpString"));
             this.comboBoxMonth.Name = "comboBoxMonth";
-            this.comboBoxMonth.Size = new System.Drawing.Size(131, 23);
-            this.comboBoxMonth.TabIndex = 2;
+            this.helpProviderMain.SetShowHelp(this.comboBoxMonth, ((bool)(resources.GetObject("comboBoxMonth.ShowHelp"))));
             // 
             // labelDay
             // 
-            this.labelDay.AutoSize = true;
-            this.labelDay.Location = new System.Drawing.Point(6, 30);
+            resources.ApplyResources(this.labelDay, "labelDay");
+            this.helpProviderMain.SetHelpKeyword(this.labelDay, resources.GetString("labelDay.HelpKeyword"));
+            this.helpProviderMain.SetHelpNavigator(this.labelDay, ((System.Windows.Forms.HelpNavigator)(resources.GetObject("labelDay.HelpNavigator"))));
+            this.helpProviderMain.SetHelpString(this.labelDay, resources.GetString("labelDay.HelpString"));
             this.labelDay.Name = "labelDay";
-            this.labelDay.Size = new System.Drawing.Size(32, 15);
-            this.labelDay.TabIndex = 1;
-            this.labelDay.Text = "Дата";
+            this.helpProviderMain.SetShowHelp(this.labelDay, ((bool)(resources.GetObject("labelDay.ShowHelp"))));
             // 
             // comboBoxDateDay
             // 
+            resources.ApplyResources(this.comboBoxDateDay, "comboBoxDateDay");
             this.comboBoxDateDay.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxDateDay.FormattingEnabled = true;
-            this.comboBoxDateDay.Location = new System.Drawing.Point(6, 48);
+            this.helpProviderMain.SetHelpKeyword(this.comboBoxDateDay, resources.GetString("comboBoxDateDay.HelpKeyword"));
+            this.helpProviderMain.SetHelpNavigator(this.comboBoxDateDay, ((System.Windows.Forms.HelpNavigator)(resources.GetObject("comboBoxDateDay.HelpNavigator"))));
+            this.helpProviderMain.SetHelpString(this.comboBoxDateDay, resources.GetString("comboBoxDateDay.HelpString"));
             this.comboBoxDateDay.Name = "comboBoxDateDay";
-            this.comboBoxDateDay.Size = new System.Drawing.Size(52, 23);
-            this.comboBoxDateDay.TabIndex = 0;
+            this.helpProviderMain.SetShowHelp(this.comboBoxDateDay, ((bool)(resources.GetObject("comboBoxDateDay.ShowHelp"))));
             // 
             // textBoxEmail
             // 
-            this.textBoxEmail.Location = new System.Drawing.Point(173, 240);
+            resources.ApplyResources(this.textBoxEmail, "textBoxEmail");
+            this.helpProviderMain.SetHelpKeyword(this.textBoxEmail, resources.GetString("textBoxEmail.HelpKeyword"));
+            this.helpProviderMain.SetHelpNavigator(this.textBoxEmail, ((System.Windows.Forms.HelpNavigator)(resources.GetObject("textBoxEmail.HelpNavigator"))));
+            this.helpProviderMain.SetHelpString(this.textBoxEmail, resources.GetString("textBoxEmail.HelpString"));
             this.textBoxEmail.Name = "textBoxEmail";
-            this.textBoxEmail.Size = new System.Drawing.Size(330, 23);
-            this.textBoxEmail.TabIndex = 9;
+            this.helpProviderMain.SetShowHelp(this.textBoxEmail, ((bool)(resources.GetObject("textBoxEmail.ShowHelp"))));
             // 
             // labelEmail
             // 
-            this.labelEmail.AutoSize = true;
-            this.labelEmail.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.labelEmail.Location = new System.Drawing.Point(12, 243);
+            resources.ApplyResources(this.labelEmail, "labelEmail");
+            this.helpProviderMain.SetHelpKeyword(this.labelEmail, resources.GetString("labelEmail.HelpKeyword"));
+            this.helpProviderMain.SetHelpNavigator(this.labelEmail, ((System.Windows.Forms.HelpNavigator)(resources.GetObject("labelEmail.HelpNavigator"))));
+            this.helpProviderMain.SetHelpString(this.labelEmail, resources.GetString("labelEmail.HelpString"));
             this.labelEmail.Name = "labelEmail";
-            this.labelEmail.Size = new System.Drawing.Size(153, 15);
-            this.labelEmail.TabIndex = 8;
-            this.labelEmail.Text = "Адрес электронной почты";
+            this.helpProviderMain.SetShowHelp(this.labelEmail, ((bool)(resources.GetObject("labelEmail.ShowHelp"))));
             // 
             // labelPlaceResidence
             // 
-            this.labelPlaceResidence.AutoSize = true;
-            this.labelPlaceResidence.Location = new System.Drawing.Point(12, 214);
+            resources.ApplyResources(this.labelPlaceResidence, "labelPlaceResidence");
+            this.helpProviderMain.SetHelpKeyword(this.labelPlaceResidence, resources.GetString("labelPlaceResidence.HelpKeyword"));
+            this.helpProviderMain.SetHelpNavigator(this.labelPlaceResidence, ((System.Windows.Forms.HelpNavigator)(resources.GetObject("labelPlaceResidence.HelpNavigator"))));
+            this.helpProviderMain.SetHelpString(this.labelPlaceResidence, resources.GetString("labelPlaceResidence.HelpString"));
             this.labelPlaceResidence.Name = "labelPlaceResidence";
-            this.labelPlaceResidence.Size = new System.Drawing.Size(114, 15);
-            this.labelPlaceResidence.TabIndex = 7;
-            this.labelPlaceResidence.Text = "Место проживания";
+            this.helpProviderMain.SetShowHelp(this.labelPlaceResidence, ((bool)(resources.GetObject("labelPlaceResidence.ShowHelp"))));
             // 
             // comboBoxPlaceResidence
             // 
+            resources.ApplyResources(this.comboBoxPlaceResidence, "comboBoxPlaceResidence");
             this.comboBoxPlaceResidence.FormattingEnabled = true;
-            this.comboBoxPlaceResidence.Location = new System.Drawing.Point(173, 211);
+            this.helpProviderMain.SetHelpKeyword(this.comboBoxPlaceResidence, resources.GetString("comboBoxPlaceResidence.HelpKeyword"));
+            this.helpProviderMain.SetHelpNavigator(this.comboBoxPlaceResidence, ((System.Windows.Forms.HelpNavigator)(resources.GetObject("comboBoxPlaceResidence.HelpNavigator"))));
+            this.helpProviderMain.SetHelpString(this.comboBoxPlaceResidence, resources.GetString("comboBoxPlaceResidence.HelpString"));
             this.comboBoxPlaceResidence.Name = "comboBoxPlaceResidence";
-            this.comboBoxPlaceResidence.Size = new System.Drawing.Size(330, 23);
-            this.comboBoxPlaceResidence.TabIndex = 6;
+            this.helpProviderMain.SetShowHelp(this.comboBoxPlaceResidence, ((bool)(resources.GetObject("comboBoxPlaceResidence.ShowHelp"))));
             // 
             // labelMob
             // 
-            this.labelMob.AutoSize = true;
-            this.labelMob.Location = new System.Drawing.Point(12, 272);
+            resources.ApplyResources(this.labelMob, "labelMob");
+            this.helpProviderMain.SetHelpKeyword(this.labelMob, resources.GetString("labelMob.HelpKeyword"));
+            this.helpProviderMain.SetHelpNavigator(this.labelMob, ((System.Windows.Forms.HelpNavigator)(resources.GetObject("labelMob.HelpNavigator"))));
+            this.helpProviderMain.SetHelpString(this.labelMob, resources.GetString("labelMob.HelpString"));
             this.labelMob.Name = "labelMob";
-            this.labelMob.Size = new System.Drawing.Size(125, 15);
-            this.labelMob.TabIndex = 11;
-            this.labelMob.Text = "Мобильный телефон";
+            this.helpProviderMain.SetShowHelp(this.labelMob, ((bool)(resources.GetObject("labelMob.ShowHelp"))));
             // 
             // comboBoxMobOperator
             // 
+            resources.ApplyResources(this.comboBoxMobOperator, "comboBoxMobOperator");
             this.comboBoxMobOperator.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxMobOperator.FormattingEnabled = true;
-            this.comboBoxMobOperator.Location = new System.Drawing.Point(173, 269);
+            this.helpProviderMain.SetHelpKeyword(this.comboBoxMobOperator, resources.GetString("comboBoxMobOperator.HelpKeyword"));
+            this.helpProviderMain.SetHelpNavigator(this.comboBoxMobOperator, ((System.Windows.Forms.HelpNavigator)(resources.GetObject("comboBoxMobOperator.HelpNavigator"))));
+            this.helpProviderMain.SetHelpString(this.comboBoxMobOperator, resources.GetString("comboBoxMobOperator.HelpString"));
             this.comboBoxMobOperator.Name = "comboBoxMobOperator";
-            this.comboBoxMobOperator.Size = new System.Drawing.Size(50, 23);
-            this.comboBoxMobOperator.TabIndex = 10;
+            this.helpProviderMain.SetShowHelp(this.comboBoxMobOperator, ((bool)(resources.GetObject("comboBoxMobOperator.ShowHelp"))));
             // 
             // textBoxModNum
             // 
-            this.textBoxModNum.Location = new System.Drawing.Point(229, 269);
+            resources.ApplyResources(this.textBoxModNum, "textBoxModNum");
+            this.helpProviderMain.SetHelpKeyword(this.textBoxModNum, resources.GetString("textBoxModNum.HelpKeyword"));
+            this.helpProviderMain.SetHelpNavigator(this.textBoxModNum, ((System.Windows.Forms.HelpNavigator)(resources.GetObject("textBoxModNum.HelpNavigator"))));
+            this.helpProviderMain.SetHelpString(this.textBoxModNum, resources.GetString("textBoxModNum.HelpString"));
             this.textBoxModNum.Name = "textBoxModNum";
-            this.textBoxModNum.Size = new System.Drawing.Size(274, 23);
-            this.textBoxModNum.TabIndex = 12;
+            this.helpProviderMain.SetShowHelp(this.textBoxModNum, ((bool)(resources.GetObject("textBoxModNum.ShowHelp"))));
             // 
             // groupBoxWorkExp
             // 
+            resources.ApplyResources(this.groupBoxWorkExp, "groupBoxWorkExp");
             this.groupBoxWorkExp.Controls.Add(this.radioButtonWorkExp10_);
             this.groupBoxWorkExp.Controls.Add(this.radioButtonWorkExp5_9);
             this.groupBoxWorkExp.Controls.Add(this.radioButtonWorkExp1_5);
             this.groupBoxWorkExp.Controls.Add(this.radioButtonWorkExpLess1);
             this.groupBoxWorkExp.Controls.Add(this.radioButtonWorkExp0);
-            this.groupBoxWorkExp.Location = new System.Drawing.Point(12, 310);
+            this.helpProviderMain.SetHelpKeyword(this.groupBoxWorkExp, resources.GetString("groupBoxWorkExp.HelpKeyword"));
+            this.helpProviderMain.SetHelpNavigator(this.groupBoxWorkExp, ((System.Windows.Forms.HelpNavigator)(resources.GetObject("groupBoxWorkExp.HelpNavigator"))));
+            this.helpProviderMain.SetHelpString(this.groupBoxWorkExp, resources.GetString("groupBoxWorkExp.HelpString"));
             this.groupBoxWorkExp.Name = "groupBoxWorkExp";
-            this.groupBoxWorkExp.Size = new System.Drawing.Size(504, 100);
-            this.groupBoxWorkExp.TabIndex = 13;
+            this.helpProviderMain.SetShowHelp(this.groupBoxWorkExp, ((bool)(resources.GetObject("groupBoxWorkExp.ShowHelp"))));
             this.groupBoxWorkExp.TabStop = false;
-            this.groupBoxWorkExp.Text = "Опыт работы";
             // 
             // radioButtonWorkExp10_
             // 
-            this.radioButtonWorkExp10_.AutoSize = true;
-            this.radioButtonWorkExp10_.Location = new System.Drawing.Point(273, 22);
+            resources.ApplyResources(this.radioButtonWorkExp10_, "radioButtonWorkExp10_");
+            this.helpProviderMain.SetHelpKeyword(this.radioButtonWorkExp10_, resources.GetString("radioButtonWorkExp10_.HelpKeyword"));
+            this.helpProviderMain.SetHelpNavigator(this.radioButtonWorkExp10_, ((System.Windows.Forms.HelpNavigator)(resources.GetObject("radioButtonWorkExp10_.HelpNavigator"))));
+            this.helpProviderMain.SetHelpString(this.radioButtonWorkExp10_, resources.GetString("radioButtonWorkExp10_.HelpString"));
             this.radioButtonWorkExp10_.Name = "radioButtonWorkExp10_";
-            this.radioButtonWorkExp10_.Size = new System.Drawing.Size(100, 19);
-            this.radioButtonWorkExp10_.TabIndex = 4;
-            this.radioButtonWorkExp10_.Text = "От 10 и более";
+            this.helpProviderMain.SetShowHelp(this.radioButtonWorkExp10_, ((bool)(resources.GetObject("radioButtonWorkExp10_.ShowHelp"))));
             this.radioButtonWorkExp10_.UseVisualStyleBackColor = true;
             // 
             // radioButtonWorkExp5_9
             // 
-            this.radioButtonWorkExp5_9.AutoSize = true;
-            this.radioButtonWorkExp5_9.Location = new System.Drawing.Point(143, 57);
+            resources.ApplyResources(this.radioButtonWorkExp5_9, "radioButtonWorkExp5_9");
+            this.helpProviderMain.SetHelpKeyword(this.radioButtonWorkExp5_9, resources.GetString("radioButtonWorkExp5_9.HelpKeyword"));
+            this.helpProviderMain.SetHelpNavigator(this.radioButtonWorkExp5_9, ((System.Windows.Forms.HelpNavigator)(resources.GetObject("radioButtonWorkExp5_9.HelpNavigator"))));
+            this.helpProviderMain.SetHelpString(this.radioButtonWorkExp5_9, resources.GetString("radioButtonWorkExp5_9.HelpString"));
             this.radioButtonWorkExp5_9.Name = "radioButtonWorkExp5_9";
-            this.radioButtonWorkExp5_9.Size = new System.Drawing.Size(94, 19);
-            this.radioButtonWorkExp5_9.TabIndex = 3;
-            this.radioButtonWorkExp5_9.Text = "От 5 до 9 лет";
+            this.helpProviderMain.SetShowHelp(this.radioButtonWorkExp5_9, ((bool)(resources.GetObject("radioButtonWorkExp5_9.ShowHelp"))));
             this.radioButtonWorkExp5_9.UseVisualStyleBackColor = true;
             // 
             // radioButtonWorkExp1_5
             // 
-            this.radioButtonWorkExp1_5.AutoSize = true;
-            this.radioButtonWorkExp1_5.Location = new System.Drawing.Point(143, 22);
+            resources.ApplyResources(this.radioButtonWorkExp1_5, "radioButtonWorkExp1_5");
+            this.helpProviderMain.SetHelpKeyword(this.radioButtonWorkExp1_5, resources.GetString("radioButtonWorkExp1_5.HelpKeyword"));
+            this.helpProviderMain.SetHelpNavigator(this.radioButtonWorkExp1_5, ((System.Windows.Forms.HelpNavigator)(resources.GetObject("radioButtonWorkExp1_5.HelpNavigator"))));
+            this.helpProviderMain.SetHelpString(this.radioButtonWorkExp1_5, resources.GetString("radioButtonWorkExp1_5.HelpString"));
             this.radioButtonWorkExp1_5.Name = "radioButtonWorkExp1_5";
-            this.radioButtonWorkExp1_5.Size = new System.Drawing.Size(124, 19);
-            this.radioButtonWorkExp1_5.TabIndex = 2;
-            this.radioButtonWorkExp1_5.Text = "От 1 года до 5 лет ";
+            this.helpProviderMain.SetShowHelp(this.radioButtonWorkExp1_5, ((bool)(resources.GetObject("radioButtonWorkExp1_5.ShowHelp"))));
             this.radioButtonWorkExp1_5.UseVisualStyleBackColor = true;
             // 
             // radioButtonWorkExpLess1
             // 
-            this.radioButtonWorkExpLess1.AutoSize = true;
-            this.radioButtonWorkExpLess1.Location = new System.Drawing.Point(6, 57);
+            resources.ApplyResources(this.radioButtonWorkExpLess1, "radioButtonWorkExpLess1");
+            this.helpProviderMain.SetHelpKeyword(this.radioButtonWorkExpLess1, resources.GetString("radioButtonWorkExpLess1.HelpKeyword"));
+            this.helpProviderMain.SetHelpNavigator(this.radioButtonWorkExpLess1, ((System.Windows.Forms.HelpNavigator)(resources.GetObject("radioButtonWorkExpLess1.HelpNavigator"))));
+            this.helpProviderMain.SetHelpString(this.radioButtonWorkExpLess1, resources.GetString("radioButtonWorkExpLess1.HelpString"));
             this.radioButtonWorkExpLess1.Name = "radioButtonWorkExpLess1";
-            this.radioButtonWorkExpLess1.Size = new System.Drawing.Size(108, 19);
-            this.radioButtonWorkExpLess1.TabIndex = 1;
-            this.radioButtonWorkExpLess1.Text = "Меньше 1 года";
+            this.helpProviderMain.SetShowHelp(this.radioButtonWorkExpLess1, ((bool)(resources.GetObject("radioButtonWorkExpLess1.ShowHelp"))));
             this.radioButtonWorkExpLess1.UseVisualStyleBackColor = true;
             // 
             // radioButtonWorkExp0
             // 
-            this.radioButtonWorkExp0.AutoSize = true;
+            resources.ApplyResources(this.radioButtonWorkExp0, "radioButtonWorkExp0");
             this.radioButtonWorkExp0.Checked = true;
-            this.radioButtonWorkExp0.Location = new System.Drawing.Point(6, 22);
+            this.helpProviderMain.SetHelpKeyword(this.radioButtonWorkExp0, resources.GetString("radioButtonWorkExp0.HelpKeyword"));
+            this.helpProviderMain.SetHelpNavigator(this.radioButtonWorkExp0, ((System.Windows.Forms.HelpNavigator)(resources.GetObject("radioButtonWorkExp0.HelpNavigator"))));
+            this.helpProviderMain.SetHelpString(this.radioButtonWorkExp0, resources.GetString("radioButtonWorkExp0.HelpString"));
             this.radioButtonWorkExp0.Name = "radioButtonWorkExp0";
-            this.radioButtonWorkExp0.Size = new System.Drawing.Size(132, 19);
-            this.radioButtonWorkExp0.TabIndex = 0;
+            this.helpProviderMain.SetShowHelp(this.radioButtonWorkExp0, ((bool)(resources.GetObject("radioButtonWorkExp0.ShowHelp"))));
             this.radioButtonWorkExp0.TabStop = true;
-            this.radioButtonWorkExp0.Text = "Прежде не работал";
             this.radioButtonWorkExp0.UseVisualStyleBackColor = true;
             // 
             // groupBoxOtherInfo
             // 
+            resources.ApplyResources(this.groupBoxOtherInfo, "groupBoxOtherInfo");
             this.groupBoxOtherInfo.Controls.Add(this.groupBoxRightsСategory);
             this.groupBoxOtherInfo.Controls.Add(this.checkBoxDriversLicense);
             this.groupBoxOtherInfo.Controls.Add(this.checkBoxAuto);
             this.groupBoxOtherInfo.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.groupBoxOtherInfo.Location = new System.Drawing.Point(12, 416);
+            this.helpProviderMain.SetHelpKeyword(this.groupBoxOtherInfo, resources.GetString("groupBoxOtherInfo.HelpKeyword"));
+            this.helpProviderMain.SetHelpNavigator(this.groupBoxOtherInfo, ((System.Windows.Forms.HelpNavigator)(resources.GetObject("groupBoxOtherInfo.HelpNavigator"))));
+            this.helpProviderMain.SetHelpString(this.groupBoxOtherInfo, resources.GetString("groupBoxOtherInfo.HelpString"));
             this.groupBoxOtherInfo.Name = "groupBoxOtherInfo";
-            this.groupBoxOtherInfo.Size = new System.Drawing.Size(195, 171);
-            this.groupBoxOtherInfo.TabIndex = 14;
+            this.helpProviderMain.SetShowHelp(this.groupBoxOtherInfo, ((bool)(resources.GetObject("groupBoxOtherInfo.ShowHelp"))));
             this.groupBoxOtherInfo.TabStop = false;
-            this.groupBoxOtherInfo.Text = "Другие сведенья";
             // 
             // groupBoxRightsСategory
             // 
+            resources.ApplyResources(this.groupBoxRightsСategory, "groupBoxRightsСategory");
             this.groupBoxRightsСategory.Controls.Add(this.checkBoxСategoryD);
             this.groupBoxRightsСategory.Controls.Add(this.checkBoxСategoryC);
             this.groupBoxRightsСategory.Controls.Add(this.checkBoxСategoryB);
             this.groupBoxRightsСategory.Controls.Add(this.checkBoxСategoryA);
-            this.groupBoxRightsСategory.Enabled = false;
-            this.groupBoxRightsСategory.Location = new System.Drawing.Point(5, 81);
+            this.helpProviderMain.SetHelpKeyword(this.groupBoxRightsСategory, resources.GetString("groupBoxRightsСategory.HelpKeyword"));
+            this.helpProviderMain.SetHelpNavigator(this.groupBoxRightsСategory, ((System.Windows.Forms.HelpNavigator)(resources.GetObject("groupBoxRightsСategory.HelpNavigator"))));
+            this.helpProviderMain.SetHelpString(this.groupBoxRightsСategory, resources.GetString("groupBoxRightsСategory.HelpString"));
             this.groupBoxRightsСategory.Name = "groupBoxRightsСategory";
-            this.groupBoxRightsСategory.Size = new System.Drawing.Size(184, 75);
-            this.groupBoxRightsСategory.TabIndex = 2;
+            this.helpProviderMain.SetShowHelp(this.groupBoxRightsСategory, ((bool)(resources.GetObject("groupBoxRightsСategory.ShowHelp"))));
             this.groupBoxRightsСategory.TabStop = false;
-            this.groupBoxRightsСategory.Text = "Категория прав";
             // 
             // checkBoxСategoryD
             // 
-            this.checkBoxСategoryD.AutoSize = true;
-            this.checkBoxСategoryD.Location = new System.Drawing.Point(126, 22);
+            resources.ApplyResources(this.checkBoxСategoryD, "checkBoxСategoryD");
+            this.helpProviderMain.SetHelpKeyword(this.checkBoxСategoryD, resources.GetString("checkBoxСategoryD.HelpKeyword"));
+            this.helpProviderMain.SetHelpNavigator(this.checkBoxСategoryD, ((System.Windows.Forms.HelpNavigator)(resources.GetObject("checkBoxСategoryD.HelpNavigator"))));
+            this.helpProviderMain.SetHelpString(this.checkBoxСategoryD, resources.GetString("checkBoxСategoryD.HelpString"));
             this.checkBoxСategoryD.Name = "checkBoxСategoryD";
-            this.checkBoxСategoryD.Size = new System.Drawing.Size(34, 19);
-            this.checkBoxСategoryD.TabIndex = 3;
-            this.checkBoxСategoryD.Text = "D";
+            this.helpProviderMain.SetShowHelp(this.checkBoxСategoryD, ((bool)(resources.GetObject("checkBoxСategoryD.ShowHelp"))));
             this.checkBoxСategoryD.UseVisualStyleBackColor = true;
             // 
             // checkBoxСategoryC
             // 
-            this.checkBoxСategoryC.AutoSize = true;
-            this.checkBoxСategoryC.Location = new System.Drawing.Point(86, 22);
+            resources.ApplyResources(this.checkBoxСategoryC, "checkBoxСategoryC");
+            this.helpProviderMain.SetHelpKeyword(this.checkBoxСategoryC, resources.GetString("checkBoxСategoryC.HelpKeyword"));
+            this.helpProviderMain.SetHelpNavigator(this.checkBoxСategoryC, ((System.Windows.Forms.HelpNavigator)(resources.GetObject("checkBoxСategoryC.HelpNavigator"))));
+            this.helpProviderMain.SetHelpString(this.checkBoxСategoryC, resources.GetString("checkBoxСategoryC.HelpString"));
             this.checkBoxСategoryC.Name = "checkBoxСategoryC";
-            this.checkBoxСategoryC.Size = new System.Drawing.Size(34, 19);
-            this.checkBoxСategoryC.TabIndex = 2;
-            this.checkBoxСategoryC.Text = "C";
+            this.helpProviderMain.SetShowHelp(this.checkBoxСategoryC, ((bool)(resources.GetObject("checkBoxСategoryC.ShowHelp"))));
             this.checkBoxСategoryC.UseVisualStyleBackColor = true;
             // 
             // checkBoxСategoryB
             // 
-            this.checkBoxСategoryB.AutoSize = true;
-            this.checkBoxСategoryB.Location = new System.Drawing.Point(46, 22);
+            resources.ApplyResources(this.checkBoxСategoryB, "checkBoxСategoryB");
+            this.helpProviderMain.SetHelpKeyword(this.checkBoxСategoryB, resources.GetString("checkBoxСategoryB.HelpKeyword"));
+            this.helpProviderMain.SetHelpNavigator(this.checkBoxСategoryB, ((System.Windows.Forms.HelpNavigator)(resources.GetObject("checkBoxСategoryB.HelpNavigator"))));
+            this.helpProviderMain.SetHelpString(this.checkBoxСategoryB, resources.GetString("checkBoxСategoryB.HelpString"));
             this.checkBoxСategoryB.Name = "checkBoxСategoryB";
-            this.checkBoxСategoryB.Size = new System.Drawing.Size(33, 19);
-            this.checkBoxСategoryB.TabIndex = 1;
-            this.checkBoxСategoryB.Text = "B";
+            this.helpProviderMain.SetShowHelp(this.checkBoxСategoryB, ((bool)(resources.GetObject("checkBoxСategoryB.ShowHelp"))));
             this.checkBoxСategoryB.UseVisualStyleBackColor = true;
             // 
             // checkBoxСategoryA
             // 
-            this.checkBoxСategoryA.AutoSize = true;
-            this.checkBoxСategoryA.Location = new System.Drawing.Point(6, 22);
+            resources.ApplyResources(this.checkBoxСategoryA, "checkBoxСategoryA");
+            this.helpProviderMain.SetHelpKeyword(this.checkBoxСategoryA, resources.GetString("checkBoxСategoryA.HelpKeyword"));
+            this.helpProviderMain.SetHelpNavigator(this.checkBoxСategoryA, ((System.Windows.Forms.HelpNavigator)(resources.GetObject("checkBoxСategoryA.HelpNavigator"))));
+            this.helpProviderMain.SetHelpString(this.checkBoxСategoryA, resources.GetString("checkBoxСategoryA.HelpString"));
             this.checkBoxСategoryA.Name = "checkBoxСategoryA";
-            this.checkBoxСategoryA.Size = new System.Drawing.Size(34, 19);
-            this.checkBoxСategoryA.TabIndex = 0;
-            this.checkBoxСategoryA.Text = "A";
+            this.helpProviderMain.SetShowHelp(this.checkBoxСategoryA, ((bool)(resources.GetObject("checkBoxСategoryA.ShowHelp"))));
             this.checkBoxСategoryA.UseVisualStyleBackColor = true;
             // 
             // checkBoxDriversLicense
             // 
-            this.checkBoxDriversLicense.AutoSize = true;
-            this.checkBoxDriversLicense.Location = new System.Drawing.Point(6, 56);
+            resources.ApplyResources(this.checkBoxDriversLicense, "checkBoxDriversLicense");
+            this.helpProviderMain.SetHelpKeyword(this.checkBoxDriversLicense, resources.GetString("checkBoxDriversLicense.HelpKeyword"));
+            this.helpProviderMain.SetHelpNavigator(this.checkBoxDriversLicense, ((System.Windows.Forms.HelpNavigator)(resources.GetObject("checkBoxDriversLicense.HelpNavigator"))));
+            this.helpProviderMain.SetHelpString(this.checkBoxDriversLicense, resources.GetString("checkBoxDriversLicense.HelpString"));
             this.checkBoxDriversLicense.Name = "checkBoxDriversLicense";
-            this.checkBoxDriversLicense.Size = new System.Drawing.Size(187, 19);
-            this.checkBoxDriversLicense.TabIndex = 1;
-            this.checkBoxDriversLicense.Text = "Водительское удостоверение";
+            this.helpProviderMain.SetShowHelp(this.checkBoxDriversLicense, ((bool)(resources.GetObject("checkBoxDriversLicense.ShowHelp"))));
             this.checkBoxDriversLicense.UseVisualStyleBackColor = true;
             this.checkBoxDriversLicense.CheckedChanged += new System.EventHandler(this.checkBoxDriversLicense_CheckedChanged);
             // 
             // checkBoxAuto
             // 
-            this.checkBoxAuto.AutoSize = true;
-            this.checkBoxAuto.Location = new System.Drawing.Point(6, 31);
+            resources.ApplyResources(this.checkBoxAuto, "checkBoxAuto");
+            this.helpProviderMain.SetHelpKeyword(this.checkBoxAuto, resources.GetString("checkBoxAuto.HelpKeyword"));
+            this.helpProviderMain.SetHelpNavigator(this.checkBoxAuto, ((System.Windows.Forms.HelpNavigator)(resources.GetObject("checkBoxAuto.HelpNavigator"))));
+            this.helpProviderMain.SetHelpString(this.checkBoxAuto, resources.GetString("checkBoxAuto.HelpString"));
             this.checkBoxAuto.Name = "checkBoxAuto";
-            this.checkBoxAuto.Size = new System.Drawing.Size(152, 19);
-            this.checkBoxAuto.TabIndex = 0;
-            this.checkBoxAuto.Text = "Наличие личного авто";
-            this.checkBoxAuto.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
+            this.helpProviderMain.SetShowHelp(this.checkBoxAuto, ((bool)(resources.GetObject("checkBoxAuto.ShowHelp"))));
             this.checkBoxAuto.UseVisualStyleBackColor = true;
             // 
             // groupBoxWages
             // 
+            resources.ApplyResources(this.groupBoxWages, "groupBoxWages");
             this.groupBoxWages.Controls.Add(this.labelWagesMax);
             this.groupBoxWages.Controls.Add(this.numericUpDownWagesMax);
             this.groupBoxWages.Controls.Add(this.labelWagesMin);
             this.groupBoxWages.Controls.Add(this.numericUpDownWagesMin);
-            this.groupBoxWages.Location = new System.Drawing.Point(213, 416);
+            this.helpProviderMain.SetHelpKeyword(this.groupBoxWages, resources.GetString("groupBoxWages.HelpKeyword"));
+            this.helpProviderMain.SetHelpNavigator(this.groupBoxWages, ((System.Windows.Forms.HelpNavigator)(resources.GetObject("groupBoxWages.HelpNavigator"))));
+            this.helpProviderMain.SetHelpString(this.groupBoxWages, resources.GetString("groupBoxWages.HelpString"));
             this.groupBoxWages.Name = "groupBoxWages";
-            this.groupBoxWages.Size = new System.Drawing.Size(303, 75);
-            this.groupBoxWages.TabIndex = 15;
+            this.helpProviderMain.SetShowHelp(this.groupBoxWages, ((bool)(resources.GetObject("groupBoxWages.ShowHelp"))));
             this.groupBoxWages.TabStop = false;
-            this.groupBoxWages.Text = "Объем заработной платы";
             // 
             // labelWagesMax
             // 
-            this.labelWagesMax.AutoSize = true;
-            this.labelWagesMax.Location = new System.Drawing.Point(157, 31);
+            resources.ApplyResources(this.labelWagesMax, "labelWagesMax");
+            this.helpProviderMain.SetHelpKeyword(this.labelWagesMax, resources.GetString("labelWagesMax.HelpKeyword"));
+            this.helpProviderMain.SetHelpNavigator(this.labelWagesMax, ((System.Windows.Forms.HelpNavigator)(resources.GetObject("labelWagesMax.HelpNavigator"))));
+            this.helpProviderMain.SetHelpString(this.labelWagesMax, resources.GetString("labelWagesMax.HelpString"));
             this.labelWagesMax.Name = "labelWagesMax";
-            this.labelWagesMax.Size = new System.Drawing.Size(22, 15);
-            this.labelWagesMax.TabIndex = 18;
-            this.labelWagesMax.Text = "До";
+            this.helpProviderMain.SetShowHelp(this.labelWagesMax, ((bool)(resources.GetObject("labelWagesMax.ShowHelp"))));
             // 
             // numericUpDownWagesMax
             // 
-            this.numericUpDownWagesMax.Location = new System.Drawing.Point(184, 27);
+            resources.ApplyResources(this.numericUpDownWagesMax, "numericUpDownWagesMax");
+            this.helpProviderMain.SetHelpKeyword(this.numericUpDownWagesMax, resources.GetString("numericUpDownWagesMax.HelpKeyword"));
+            this.helpProviderMain.SetHelpNavigator(this.numericUpDownWagesMax, ((System.Windows.Forms.HelpNavigator)(resources.GetObject("numericUpDownWagesMax.HelpNavigator"))));
+            this.helpProviderMain.SetHelpString(this.numericUpDownWagesMax, resources.GetString("numericUpDownWagesMax.HelpString"));
             this.numericUpDownWagesMax.Maximum = new decimal(new int[] {
             1000000,
             0,
             0,
             0});
             this.numericUpDownWagesMax.Name = "numericUpDownWagesMax";
-            this.numericUpDownWagesMax.Size = new System.Drawing.Size(80, 23);
-            this.numericUpDownWagesMax.TabIndex = 19;
+            this.helpProviderMain.SetShowHelp(this.numericUpDownWagesMax, ((bool)(resources.GetObject("numericUpDownWagesMax.ShowHelp"))));
             this.numericUpDownWagesMax.ValueChanged += new System.EventHandler(this.numericUpDownWagesMax_ValueChanged);
             // 
             // labelWagesMin
             // 
-            this.labelWagesMin.AutoSize = true;
-            this.labelWagesMin.Location = new System.Drawing.Point(17, 31);
+            resources.ApplyResources(this.labelWagesMin, "labelWagesMin");
+            this.helpProviderMain.SetHelpKeyword(this.labelWagesMin, resources.GetString("labelWagesMin.HelpKeyword"));
+            this.helpProviderMain.SetHelpNavigator(this.labelWagesMin, ((System.Windows.Forms.HelpNavigator)(resources.GetObject("labelWagesMin.HelpNavigator"))));
+            this.helpProviderMain.SetHelpString(this.labelWagesMin, resources.GetString("labelWagesMin.HelpString"));
             this.labelWagesMin.Name = "labelWagesMin";
-            this.labelWagesMin.Size = new System.Drawing.Size(21, 15);
-            this.labelWagesMin.TabIndex = 6;
-            this.labelWagesMin.Text = "От";
+            this.helpProviderMain.SetShowHelp(this.labelWagesMin, ((bool)(resources.GetObject("labelWagesMin.ShowHelp"))));
             // 
             // numericUpDownWagesMin
             // 
-            this.numericUpDownWagesMin.Location = new System.Drawing.Point(44, 27);
+            resources.ApplyResources(this.numericUpDownWagesMin, "numericUpDownWagesMin");
+            this.helpProviderMain.SetHelpKeyword(this.numericUpDownWagesMin, resources.GetString("numericUpDownWagesMin.HelpKeyword"));
+            this.helpProviderMain.SetHelpNavigator(this.numericUpDownWagesMin, ((System.Windows.Forms.HelpNavigator)(resources.GetObject("numericUpDownWagesMin.HelpNavigator"))));
+            this.helpProviderMain.SetHelpString(this.numericUpDownWagesMin, resources.GetString("numericUpDownWagesMin.HelpString"));
             this.numericUpDownWagesMin.Maximum = new decimal(new int[] {
             1000000,
             0,
             0,
             0});
             this.numericUpDownWagesMin.Name = "numericUpDownWagesMin";
-            this.numericUpDownWagesMin.Size = new System.Drawing.Size(80, 23);
-            this.numericUpDownWagesMin.TabIndex = 17;
+            this.helpProviderMain.SetShowHelp(this.numericUpDownWagesMin, ((bool)(resources.GetObject("numericUpDownWagesMin.ShowHelp"))));
             this.numericUpDownWagesMin.ValueChanged += new System.EventHandler(this.numericUpDownWagesMin_ValueChanged);
             // 
             // groupBoxWorkSchedule
             // 
+            resources.ApplyResources(this.groupBoxWorkSchedule, "groupBoxWorkSchedule");
             this.groupBoxWorkSchedule.Controls.Add(this.radioButtonWorkShift);
             this.groupBoxWorkSchedule.Controls.Add(this.radioButtonWorkPartial);
             this.groupBoxWorkSchedule.Controls.Add(this.radioButtonWorkHome);
             this.groupBoxWorkSchedule.Controls.Add(this.radioButtonWorkFull);
-            this.groupBoxWorkSchedule.Location = new System.Drawing.Point(213, 497);
+            this.helpProviderMain.SetHelpKeyword(this.groupBoxWorkSchedule, resources.GetString("groupBoxWorkSchedule.HelpKeyword"));
+            this.helpProviderMain.SetHelpNavigator(this.groupBoxWorkSchedule, ((System.Windows.Forms.HelpNavigator)(resources.GetObject("groupBoxWorkSchedule.HelpNavigator"))));
+            this.helpProviderMain.SetHelpString(this.groupBoxWorkSchedule, resources.GetString("groupBoxWorkSchedule.HelpString"));
             this.groupBoxWorkSchedule.Name = "groupBoxWorkSchedule";
-            this.groupBoxWorkSchedule.Size = new System.Drawing.Size(303, 90);
-            this.groupBoxWorkSchedule.TabIndex = 16;
+            this.helpProviderMain.SetShowHelp(this.groupBoxWorkSchedule, ((bool)(resources.GetObject("groupBoxWorkSchedule.ShowHelp"))));
             this.groupBoxWorkSchedule.TabStop = false;
-            this.groupBoxWorkSchedule.Text = "Предпочтительный график работы";
             // 
             // radioButtonWorkShift
             // 
-            this.radioButtonWorkShift.AutoSize = true;
-            this.radioButtonWorkShift.Location = new System.Drawing.Point(157, 49);
+            resources.ApplyResources(this.radioButtonWorkShift, "radioButtonWorkShift");
+            this.helpProviderMain.SetHelpKeyword(this.radioButtonWorkShift, resources.GetString("radioButtonWorkShift.HelpKeyword"));
+            this.helpProviderMain.SetHelpNavigator(this.radioButtonWorkShift, ((System.Windows.Forms.HelpNavigator)(resources.GetObject("radioButtonWorkShift.HelpNavigator"))));
+            this.helpProviderMain.SetHelpString(this.radioButtonWorkShift, resources.GetString("radioButtonWorkShift.HelpString"));
             this.radioButtonWorkShift.Name = "radioButtonWorkShift";
-            this.radioButtonWorkShift.Size = new System.Drawing.Size(122, 19);
-            this.radioButtonWorkShift.TabIndex = 3;
-            this.radioButtonWorkShift.Text = "Посменая работа";
+            this.helpProviderMain.SetShowHelp(this.radioButtonWorkShift, ((bool)(resources.GetObject("radioButtonWorkShift.ShowHelp"))));
             this.radioButtonWorkShift.UseVisualStyleBackColor = true;
             // 
             // radioButtonWorkPartial
             // 
-            this.radioButtonWorkPartial.AutoSize = true;
-            this.radioButtonWorkPartial.Location = new System.Drawing.Point(157, 22);
+            resources.ApplyResources(this.radioButtonWorkPartial, "radioButtonWorkPartial");
+            this.helpProviderMain.SetHelpKeyword(this.radioButtonWorkPartial, resources.GetString("radioButtonWorkPartial.HelpKeyword"));
+            this.helpProviderMain.SetHelpNavigator(this.radioButtonWorkPartial, ((System.Windows.Forms.HelpNavigator)(resources.GetObject("radioButtonWorkPartial.HelpNavigator"))));
+            this.helpProviderMain.SetHelpString(this.radioButtonWorkPartial, resources.GetString("radioButtonWorkPartial.HelpString"));
             this.radioButtonWorkPartial.Name = "radioButtonWorkPartial";
-            this.radioButtonWorkPartial.Size = new System.Drawing.Size(139, 19);
-            this.radioButtonWorkPartial.TabIndex = 2;
-            this.radioButtonWorkPartial.Text = "Частичная занятость";
+            this.helpProviderMain.SetShowHelp(this.radioButtonWorkPartial, ((bool)(resources.GetObject("radioButtonWorkPartial.ShowHelp"))));
             this.radioButtonWorkPartial.UseVisualStyleBackColor = true;
             // 
             // radioButtonWorkHome
             // 
-            this.radioButtonWorkHome.AutoSize = true;
-            this.radioButtonWorkHome.Location = new System.Drawing.Point(16, 49);
+            resources.ApplyResources(this.radioButtonWorkHome, "radioButtonWorkHome");
+            this.helpProviderMain.SetHelpKeyword(this.radioButtonWorkHome, resources.GetString("radioButtonWorkHome.HelpKeyword"));
+            this.helpProviderMain.SetHelpNavigator(this.radioButtonWorkHome, ((System.Windows.Forms.HelpNavigator)(resources.GetObject("radioButtonWorkHome.HelpNavigator"))));
+            this.helpProviderMain.SetHelpString(this.radioButtonWorkHome, resources.GetString("radioButtonWorkHome.HelpString"));
             this.radioButtonWorkHome.Name = "radioButtonWorkHome";
-            this.radioButtonWorkHome.Size = new System.Drawing.Size(110, 19);
-            this.radioButtonWorkHome.TabIndex = 1;
-            this.radioButtonWorkHome.Text = "Работа на дому";
+            this.helpProviderMain.SetShowHelp(this.radioButtonWorkHome, ((bool)(resources.GetObject("radioButtonWorkHome.ShowHelp"))));
             this.radioButtonWorkHome.UseVisualStyleBackColor = true;
             // 
             // radioButtonWorkFull
             // 
-            this.radioButtonWorkFull.AutoSize = true;
+            resources.ApplyResources(this.radioButtonWorkFull, "radioButtonWorkFull");
             this.radioButtonWorkFull.Checked = true;
-            this.radioButtonWorkFull.Location = new System.Drawing.Point(16, 22);
+            this.helpProviderMain.SetHelpKeyword(this.radioButtonWorkFull, resources.GetString("radioButtonWorkFull.HelpKeyword"));
+            this.helpProviderMain.SetHelpNavigator(this.radioButtonWorkFull, ((System.Windows.Forms.HelpNavigator)(resources.GetObject("radioButtonWorkFull.HelpNavigator"))));
+            this.helpProviderMain.SetHelpString(this.radioButtonWorkFull, resources.GetString("radioButtonWorkFull.HelpString"));
             this.radioButtonWorkFull.Name = "radioButtonWorkFull";
-            this.radioButtonWorkFull.Size = new System.Drawing.Size(123, 19);
-            this.radioButtonWorkFull.TabIndex = 0;
+            this.helpProviderMain.SetShowHelp(this.radioButtonWorkFull, ((bool)(resources.GetObject("radioButtonWorkFull.ShowHelp"))));
             this.radioButtonWorkFull.TabStop = true;
-            this.radioButtonWorkFull.Text = "Полная занятость";
             this.radioButtonWorkFull.UseVisualStyleBackColor = true;
             // 
             // textBoxResume
             // 
-            this.textBoxResume.Location = new System.Drawing.Point(522, 32);
-            this.textBoxResume.Multiline = true;
+            resources.ApplyResources(this.textBoxResume, "textBoxResume");
+            this.helpProviderMain.SetHelpKeyword(this.textBoxResume, resources.GetString("textBoxResume.HelpKeyword"));
+            this.helpProviderMain.SetHelpNavigator(this.textBoxResume, ((System.Windows.Forms.HelpNavigator)(resources.GetObject("textBoxResume.HelpNavigator"))));
+            this.helpProviderMain.SetHelpString(this.textBoxResume, resources.GetString("textBoxResume.HelpString"));
             this.textBoxResume.Name = "textBoxResume";
-            this.textBoxResume.Size = new System.Drawing.Size(504, 555);
-            this.textBoxResume.TabIndex = 17;
+            this.helpProviderMain.SetShowHelp(this.textBoxResume, ((bool)(resources.GetObject("textBoxResume.ShowHelp"))));
             // 
             // labelResume
             // 
-            this.labelResume.AutoSize = true;
-            this.labelResume.Location = new System.Drawing.Point(522, 14);
+            resources.ApplyResources(this.labelResume, "labelResume");
+            this.helpProviderMain.SetHelpKeyword(this.labelResume, resources.GetString("labelResume.HelpKeyword"));
+            this.helpProviderMain.SetHelpNavigator(this.labelResume, ((System.Windows.Forms.HelpNavigator)(resources.GetObject("labelResume.HelpNavigator"))));
+            this.helpProviderMain.SetHelpString(this.labelResume, resources.GetString("labelResume.HelpString"));
             this.labelResume.Name = "labelResume";
-            this.labelResume.Size = new System.Drawing.Size(97, 15);
-            this.labelResume.TabIndex = 18;
-            this.labelResume.Text = "Краткое резюме";
+            this.helpProviderMain.SetShowHelp(this.labelResume, ((bool)(resources.GetObject("labelResume.ShowHelp"))));
             // 
             // buttonSave
             // 
-            this.buttonSave.Location = new System.Drawing.Point(369, 593);
+            resources.ApplyResources(this.buttonSave, "buttonSave");
+            this.helpProviderMain.SetHelpKeyword(this.buttonSave, resources.GetString("buttonSave.HelpKeyword"));
+            this.helpProviderMain.SetHelpNavigator(this.buttonSave, ((System.Windows.Forms.HelpNavigator)(resources.GetObject("buttonSave.HelpNavigator"))));
+            this.helpProviderMain.SetHelpString(this.buttonSave, resources.GetString("buttonSave.HelpString"));
             this.buttonSave.Name = "buttonSave";
-            this.buttonSave.Size = new System.Drawing.Size(147, 23);
-            this.buttonSave.TabIndex = 19;
-            this.buttonSave.Text = "Сохранить";
+            this.helpProviderMain.SetShowHelp(this.buttonSave, ((bool)(resources.GetObject("buttonSave.ShowHelp"))));
             this.buttonSave.UseVisualStyleBackColor = true;
             this.buttonSave.Click += new System.EventHandler(this.buttonSave_Click);
             // 
             // buttonClearForm
             // 
-            this.buttonClearForm.Location = new System.Drawing.Point(228, 593);
+            resources.ApplyResources(this.buttonClearForm, "buttonClearForm");
+            this.helpProviderMain.SetHelpKeyword(this.buttonClearForm, resources.GetString("buttonClearForm.HelpKeyword"));
+            this.helpProviderMain.SetHelpNavigator(this.buttonClearForm, ((System.Windows.Forms.HelpNavigator)(resources.GetObject("buttonClearForm.HelpNavigator"))));
+            this.helpProviderMain.SetHelpString(this.buttonClearForm, resources.GetString("buttonClearForm.HelpString"));
             this.buttonClearForm.Name = "buttonClearForm";
-            this.buttonClearForm.Size = new System.Drawing.Size(135, 23);
-            this.buttonClearForm.TabIndex = 20;
-            this.buttonClearForm.Text = "Очистить форму";
+            this.helpProviderMain.SetShowHelp(this.buttonClearForm, ((bool)(resources.GetObject("buttonClearForm.ShowHelp"))));
             this.buttonClearForm.UseVisualStyleBackColor = true;
             this.buttonClearForm.Click += new System.EventHandler(this.buttonClearForm_Click);
             // 
+            // helpProviderMain
+            // 
+            resources.ApplyResources(this.helpProviderMain, "helpProviderMain");
+            // 
+            // buttonInfo
+            // 
+            resources.ApplyResources(this.buttonInfo, "buttonInfo");
+            this.helpProviderMain.SetHelpKeyword(this.buttonInfo, resources.GetString("buttonInfo.HelpKeyword"));
+            this.helpProviderMain.SetHelpNavigator(this.buttonInfo, ((System.Windows.Forms.HelpNavigator)(resources.GetObject("buttonInfo.HelpNavigator"))));
+            this.helpProviderMain.SetHelpString(this.buttonInfo, resources.GetString("buttonInfo.HelpString"));
+            this.buttonInfo.Name = "buttonInfo";
+            this.helpProviderMain.SetShowHelp(this.buttonInfo, ((bool)(resources.GetObject("buttonInfo.ShowHelp"))));
+            this.buttonInfo.UseVisualStyleBackColor = true;
+            this.buttonInfo.Click += new System.EventHandler(this.buttonInfo_Click);
+            // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1110, 621);
+            this.Controls.Add(this.buttonInfo);
             this.Controls.Add(this.buttonClearForm);
             this.Controls.Add(this.buttonSave);
             this.Controls.Add(this.labelResume);
@@ -636,8 +681,11 @@
             this.Controls.Add(this.labelName);
             this.Controls.Add(this.textBoxSurname);
             this.Controls.Add(this.labelSurname);
+            this.helpProviderMain.SetHelpKeyword(this, resources.GetString("$this.HelpKeyword"));
+            this.helpProviderMain.SetHelpNavigator(this, ((System.Windows.Forms.HelpNavigator)(resources.GetObject("$this.HelpNavigator"))));
+            this.helpProviderMain.SetHelpString(this, resources.GetString("$this.HelpString"));
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.helpProviderMain.SetShowHelp(this, ((bool)(resources.GetObject("$this.ShowHelp"))));
             this.groupBoxGender.ResumeLayout(false);
             this.groupBoxGender.PerformLayout();
             this.groupBoxDateBirth.ResumeLayout(false);
@@ -712,5 +760,7 @@
         private Label labelResume;
         private Button buttonSave;
         private Button buttonClearForm;
+        private HelpProvider helpProviderMain;
+        private Button buttonInfo;
     }
 }

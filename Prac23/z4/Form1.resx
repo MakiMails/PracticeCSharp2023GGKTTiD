@@ -57,4 +57,1999 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="groupBoxRightsСategory.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="radioButtonGenderWoman.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;labelMiddleName.Name" xml:space="preserve">
+    <value>labelMiddleName</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="radioButtonWorkHome.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;radioButtonWorkExp10_.Name" xml:space="preserve">
+    <value>radioButtonWorkExp10_</value>
+  </data>
+  <data name="&gt;&gt;buttonInfo.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="groupBoxWages.HelpString" xml:space="preserve">
+    <value>Wages</value>
+  </data>
+  <data name="&gt;&gt;groupBoxWorkExp.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;labelWagesMax.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="radioButtonWorkExp10_.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="radioButtonWorkFull.Size" type="System.Drawing.Size, System.Drawing">
+    <value>123, 19</value>
+  </data>
+  <data name="&gt;&gt;radioButtonGenderMan.Parent" xml:space="preserve">
+    <value>groupBoxGender</value>
+  </data>
+  <data name="comboBoxPlaceResidence.HelpString" xml:space="preserve">
+    <value>Wtrite city</value>
+  </data>
+  <data name="labelName.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="labelName.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;radioButtonWorkExp1_5.Parent" xml:space="preserve">
+    <value>groupBoxWorkExp</value>
+  </data>
+  <data name="radioButtonWorkShift.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="checkBoxAuto.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelResume.Location" type="System.Drawing.Point, System.Drawing">
+    <value>522, 14</value>
+  </data>
+  <data name="numericUpDownWagesMax.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="groupBoxWages.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="labelWagesMin.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;radioButtonWorkHome.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="radioButtonWorkExp0.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 22</value>
+  </data>
+  <data name="&gt;&gt;textBoxModNum.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBoxСategoryA.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBoxSurname.Name" xml:space="preserve">
+    <value>textBoxSurname</value>
+  </data>
+  <data name="&gt;&gt;radioButtonWorkPartial.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="radioButtonWorkPartial.Location" type="System.Drawing.Point, System.Drawing">
+    <value>157, 22</value>
+  </data>
+  <data name="checkBoxСategoryA.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="numericUpDownWagesMax.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="radioButtonWorkExp1_5.Text" xml:space="preserve">
+    <value>От 1 года до 5 лет </value>
+  </data>
+  <data name="labelWagesMax.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="textBoxEmail.HelpString" xml:space="preserve">
+    <value>Write email (format: text@email.com)</value>
+  </data>
+  <data name="checkBoxAuto.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>BottomLeft</value>
+  </data>
+  <data name="&gt;&gt;textBoxName.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;labelSurname.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="radioButtonWorkExp1_5.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="labelEmail.Size" type="System.Drawing.Size, System.Drawing">
+    <value>153, 15</value>
+  </data>
+  <data name="radioButtonWorkExpLess1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelYear.Size" type="System.Drawing.Size, System.Drawing">
+    <value>26, 15</value>
+  </data>
+  <data name="groupBoxOtherInfo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 416</value>
+  </data>
+  <data name="comboBoxDateDay.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 23</value>
+  </data>
+  <data name="&gt;&gt;groupBoxRightsСategory.Name" xml:space="preserve">
+    <value>groupBoxRightsСategory</value>
+  </data>
+  <data name="&gt;&gt;labelSurname.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="buttonInfo.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="radioButtonWorkExp1_5.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="checkBoxСategoryB.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="labelResume.Text" xml:space="preserve">
+    <value>Краткое резюме</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Form1</value>
+  </data>
+  <data name="&gt;&gt;textBoxResume.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;radioButtonWorkFull.Parent" xml:space="preserve">
+    <value>groupBoxWorkSchedule</value>
+  </data>
+  <data name="&gt;&gt;checkBoxAuto.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="comboBoxMobOperator.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="labelSurname.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="radioButtonWorkExpLess1.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelYear.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="labelWagesMax.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="radioButtonWorkHome.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;groupBoxOtherInfo.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelPlaceResidence.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="textBoxMiddleName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>76, 75</value>
+  </data>
+  <data name="&gt;&gt;groupBoxOtherInfo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelPlaceResidence.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;comboBoxYear.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBoxСategoryC.Name" xml:space="preserve">
+    <value>checkBoxСategoryC</value>
+  </data>
+  <data name="checkBoxDriversLicense.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;buttonClearForm.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="labelEmail.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="labelDay.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;groupBoxGender.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelPlaceResidence.Text" xml:space="preserve">
+    <value>Место проживания</value>
+  </data>
+  <data name="textBoxMiddleName.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="labelSurname.Text" xml:space="preserve">
+    <value>Фамилия</value>
+  </data>
+  <data name="&gt;&gt;groupBoxOtherInfo.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="groupBoxWages.Location" type="System.Drawing.Point, System.Drawing">
+    <value>213, 416</value>
+  </data>
+  <data name="comboBoxYear.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;comboBoxMobOperator.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="labelEmail.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBoxСategoryC.Location" type="System.Drawing.Point, System.Drawing">
+    <value>86, 22</value>
+  </data>
+  <data name="radioButtonWorkExpLess1.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="comboBoxMobOperator.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 23</value>
+  </data>
+  <data name="radioButtonGenderWoman.Text" xml:space="preserve">
+    <value>Женский</value>
+  </data>
+  <data name="numericUpDownWagesMin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 23</value>
+  </data>
+  <data name="&gt;&gt;radioButtonWorkShift.Parent" xml:space="preserve">
+    <value>groupBoxWorkSchedule</value>
+  </data>
+  <data name="radioButtonWorkExpLess1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>108, 19</value>
+  </data>
+  <data name="buttonSave.Text" xml:space="preserve">
+    <value>Сохранить</value>
+  </data>
+  <data name="&gt;&gt;labelEmail.Name" xml:space="preserve">
+    <value>labelEmail</value>
+  </data>
+  <data name="comboBoxMobOperator.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;radioButtonWorkHome.Name" xml:space="preserve">
+    <value>radioButtonWorkHome</value>
+  </data>
+  <data name="groupBoxWorkExp.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelDay.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="comboBoxYear.HelpString" xml:space="preserve">
+    <value>Year date of birth</value>
+  </data>
+  <data name="labelResume.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="textBoxEmail.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="comboBoxDateDay.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 48</value>
+  </data>
+  <data name="textBoxModNum.Size" type="System.Drawing.Size, System.Drawing">
+    <value>274, 23</value>
+  </data>
+  <data name="&gt;&gt;labelDay.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;labelYear.Name" xml:space="preserve">
+    <value>labelYear</value>
+  </data>
+  <data name="buttonClearForm.HelpString" xml:space="preserve">
+    <value>Clear forms</value>
+  </data>
+  <data name="checkBoxAuto.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="&gt;&gt;comboBoxYear.Parent" xml:space="preserve">
+    <value>groupBoxDateBirth</value>
+  </data>
+  <data name="checkBoxСategoryA.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="numericUpDownWagesMax.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;checkBoxAuto.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="textBoxSurname.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelDay.Text" xml:space="preserve">
+    <value>Дата</value>
+  </data>
+  <data name="radioButtonGenderWoman.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 19</value>
+  </data>
+  <data name="groupBoxWorkSchedule.Size" type="System.Drawing.Size, System.Drawing">
+    <value>303, 90</value>
+  </data>
+  <data name="groupBoxWorkExp.HelpString" xml:space="preserve">
+    <value>Work experience</value>
+  </data>
+  <data name="labelPlaceResidence.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="comboBoxDateDay.HelpString" xml:space="preserve">
+    <value>Day date of birth</value>
+  </data>
+  <data name="&gt;&gt;labelDay.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="buttonInfo.Text" xml:space="preserve">
+    <value>?</value>
+  </data>
+  <data name="comboBoxMonth.Size" type="System.Drawing.Size, System.Drawing">
+    <value>131, 23</value>
+  </data>
+  <data name="groupBoxRightsСategory.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="labelDay.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 30</value>
+  </data>
+  <data name="&gt;&gt;radioButtonWorkPartial.Parent" xml:space="preserve">
+    <value>groupBoxWorkSchedule</value>
+  </data>
+  <data name="labelEmail.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="labelYear.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;buttonSave.Name" xml:space="preserve">
+    <value>buttonSave</value>
+  </data>
+  <data name="checkBoxDriversLicense.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBoxDriversLicense.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;checkBoxСategoryB.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="buttonClearForm.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="radioButtonWorkFull.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="groupBoxWorkExp.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="&gt;&gt;comboBoxMonth.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="buttonClearForm.Size" type="System.Drawing.Size, System.Drawing">
+    <value>135, 23</value>
+  </data>
+  <data name="groupBoxOtherInfo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>195, 171</value>
+  </data>
+  <data name="&gt;&gt;labelSurname.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="radioButtonGenderWoman.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="labelMob.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="labelMob.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="groupBoxGender.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="textBoxResume.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;textBoxSurname.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="groupBoxRightsСategory.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="radioButtonWorkFull.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 22</value>
+  </data>
+  <data name="&gt;&gt;groupBoxWorkSchedule.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;radioButtonWorkExp5_9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="checkBoxСategoryA.Text" xml:space="preserve">
+    <value>A</value>
+  </data>
+  <data name="&gt;&gt;checkBoxСategoryA.Parent" xml:space="preserve">
+    <value>groupBoxRightsСategory</value>
+  </data>
+  <data name="groupBoxWorkSchedule.Text" xml:space="preserve">
+    <value>Предпочтительный график работы</value>
+  </data>
+  <data name="labelWagesMin.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelMiddleName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 15</value>
+  </data>
+  <data name="textBoxName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>76, 46</value>
+  </data>
+  <data name="radioButtonWorkHome.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBoxСategoryD.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="&gt;&gt;comboBoxMonth.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="checkBoxСategoryB.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="&gt;&gt;helpProviderMain.Type" xml:space="preserve">
+    <value>System.Windows.Forms.HelpProvider, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>39, 49</value>
+  </data>
+  <data name="labelMonth.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;labelDay.Name" xml:space="preserve">
+    <value>labelDay</value>
+  </data>
+  <data name="checkBoxСategoryC.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;buttonInfo.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="groupBoxWages.Text" xml:space="preserve">
+    <value>Объем заработной платы</value>
+  </data>
+  <data name="groupBoxGender.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="&gt;&gt;comboBoxDateDay.Parent" xml:space="preserve">
+    <value>groupBoxDateBirth</value>
+  </data>
+  <data name="&gt;&gt;textBoxMiddleName.Name" xml:space="preserve">
+    <value>textBoxMiddleName</value>
+  </data>
+  <data name="helpProviderMain.HelpNamespace" xml:space="preserve">
+    <value>D:\PracticCSharp\Prac23\z4\Files\Helps.docx</value>
+  </data>
+  <data name="checkBoxСategoryD.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;groupBoxWages.Name" xml:space="preserve">
+    <value>groupBoxWages</value>
+  </data>
+  <data name="radioButtonGenderMan.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="checkBoxСategoryA.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="textBoxEmail.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="buttonSave.Size" type="System.Drawing.Size, System.Drawing">
+    <value>147, 23</value>
+  </data>
+  <data name="groupBoxDateBirth.Size" type="System.Drawing.Size, System.Drawing">
+    <value>504, 86</value>
+  </data>
+  <data name="labelMiddleName.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="checkBoxAuto.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;radioButtonGenderWoman.Name" xml:space="preserve">
+    <value>radioButtonGenderWoman</value>
+  </data>
+  <data name="comboBoxDateDay.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="labelMob.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 272</value>
+  </data>
+  <data name="checkBoxDriversLicense.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="groupBoxWorkSchedule.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="buttonClearForm.Text" xml:space="preserve">
+    <value>Очистить форму</value>
+  </data>
+  <data name="radioButtonWorkExp5_9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>143, 57</value>
+  </data>
+  <data name="radioButtonWorkPartial.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="&gt;&gt;labelWagesMin.Name" xml:space="preserve">
+    <value>labelWagesMin</value>
+  </data>
+  <data name="labelSurname.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 15</value>
+  </data>
+  <data name="&gt;&gt;radioButtonWorkHome.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="labelName.Text" xml:space="preserve">
+    <value>Имя</value>
+  </data>
+  <data name="checkBoxDriversLicense.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="&gt;&gt;labelName.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;labelWagesMax.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="comboBoxPlaceResidence.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="labelName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 15</value>
+  </data>
+  <data name="numericUpDownWagesMax.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBoxСategoryC.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;groupBoxWages.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="radioButtonWorkExp1_5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 19</value>
+  </data>
+  <data name="groupBoxOtherInfo.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="&gt;&gt;numericUpDownWagesMin.Name" xml:space="preserve">
+    <value>numericUpDownWagesMin</value>
+  </data>
+  <data name="comboBoxMonth.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="textBoxName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>203, 23</value>
+  </data>
+  <data name="&gt;&gt;textBoxEmail.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="labelWagesMin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 31</value>
+  </data>
+  <data name="radioButtonWorkExpLess1.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="radioButtonWorkExp10_.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="&gt;&gt;radioButtonWorkExpLess1.Parent" xml:space="preserve">
+    <value>groupBoxWorkExp</value>
+  </data>
+  <data name="radioButtonWorkExp1_5.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="labelMiddleName.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;textBoxModNum.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="labelMob.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="buttonInfo.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;textBoxMiddleName.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;groupBoxWages.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="labelPlaceResidence.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 214</value>
+  </data>
+  <data name="$this.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="radioButtonWorkExpLess1.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="&gt;&gt;buttonClearForm.Name" xml:space="preserve">
+    <value>buttonClearForm</value>
+  </data>
+  <data name="&gt;&gt;checkBoxDriversLicense.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBoxMiddleName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="radioButtonWorkExp10_.Location" type="System.Drawing.Point, System.Drawing">
+    <value>273, 22</value>
+  </data>
+  <data name="radioButtonWorkExp1_5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBoxAuto.Text" xml:space="preserve">
+    <value>Наличие личного авто</value>
+  </data>
+  <data name="checkBoxСategoryB.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="groupBoxGender.Text" xml:space="preserve">
+    <value>Пол</value>
+  </data>
+  <data name="groupBoxDateBirth.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="&gt;&gt;radioButtonWorkHome.Parent" xml:space="preserve">
+    <value>groupBoxWorkSchedule</value>
+  </data>
+  <data name="&gt;&gt;groupBoxRightsСategory.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;textBoxSurname.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="radioButtonGenderMan.Text" xml:space="preserve">
+    <value>Мужской</value>
+  </data>
+  <data name="radioButtonWorkPartial.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="comboBoxDateDay.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="radioButtonGenderWoman.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;groupBoxRightsСategory.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBoxGender.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="labelWagesMin.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="textBoxSurname.HelpString" xml:space="preserve">
+    <value>Write surname</value>
+  </data>
+  <data name="&gt;&gt;labelMonth.Name" xml:space="preserve">
+    <value>labelMonth</value>
+  </data>
+  <data name="&gt;&gt;groupBoxWages.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="labelMob.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;buttonSave.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="buttonInfo.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="radioButtonWorkExp1_5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>143, 22</value>
+  </data>
+  <data name="comboBoxYear.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="radioButtonWorkExpLess1.Text" xml:space="preserve">
+    <value>Меньше 1 года</value>
+  </data>
+  <data name="&gt;&gt;labelSurname.Name" xml:space="preserve">
+    <value>labelSurname</value>
+  </data>
+  <data name="&gt;&gt;groupBoxGender.Name" xml:space="preserve">
+    <value>groupBoxGender</value>
+  </data>
+  <data name="groupBoxWorkExp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>504, 100</value>
+  </data>
+  <data name="radioButtonWorkHome.Text" xml:space="preserve">
+    <value>Работа на дому</value>
+  </data>
+  <data name="labelMiddleName.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="buttonClearForm.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="groupBoxOtherInfo.HelpString" xml:space="preserve">
+    <value>Other information</value>
+  </data>
+  <data name="&gt;&gt;comboBoxMobOperator.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="$this.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;labelPlaceResidence.Name" xml:space="preserve">
+    <value>labelPlaceResidence</value>
+  </data>
+  <data name="labelResume.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;radioButtonGenderWoman.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="textBoxName.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;radioButtonWorkExp1_5.Name" xml:space="preserve">
+    <value>radioButtonWorkExp1_5</value>
+  </data>
+  <data name="radioButtonWorkShift.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="labelSurname.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="radioButtonGenderMan.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="textBoxName.HelpString" xml:space="preserve">
+    <value>Write name</value>
+  </data>
+  <data name="&gt;&gt;groupBoxRightsСategory.Parent" xml:space="preserve">
+    <value>groupBoxOtherInfo</value>
+  </data>
+  <data name="&gt;&gt;radioButtonWorkExp1_5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="checkBoxDriversLicense.Size" type="System.Drawing.Size, System.Drawing">
+    <value>187, 19</value>
+  </data>
+  <data name="labelEmail.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="&gt;&gt;groupBoxDateBirth.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="radioButtonWorkExp1_5.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="&gt;&gt;labelMiddleName.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;checkBoxСategoryC.Parent" xml:space="preserve">
+    <value>groupBoxRightsСategory</value>
+  </data>
+  <data name="labelMonth.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="labelSurname.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="checkBoxAuto.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="labelYear.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="buttonSave.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;radioButtonGenderWoman.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="radioButtonWorkPartial.Text" xml:space="preserve">
+    <value>Частичная занятость</value>
+  </data>
+  <data name="radioButtonWorkHome.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="&gt;&gt;radioButtonWorkExp5_9.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;labelYear.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="radioButtonWorkFull.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="groupBoxRightsСategory.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 81</value>
+  </data>
+  <data name="labelMiddleName.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="$this.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;comboBoxMobOperator.Name" xml:space="preserve">
+    <value>comboBoxMobOperator</value>
+  </data>
+  <data name="labelEmail.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="checkBoxDriversLicense.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 56</value>
+  </data>
+  <data name="textBoxMiddleName.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;groupBoxWorkExp.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBoxDateBirth.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="buttonInfo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 593</value>
+  </data>
+  <data name="labelPlaceResidence.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;textBoxResume.Name" xml:space="preserve">
+    <value>textBoxResume</value>
+  </data>
+  <data name="groupBoxWorkExp.Text" xml:space="preserve">
+    <value>Опыт работы</value>
+  </data>
+  <data name="numericUpDownWagesMin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>44, 27</value>
+  </data>
+  <data name="buttonClearForm.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;labelWagesMin.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>7, 15</value>
+  </data>
+  <data name="radioButtonWorkHome.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="textBoxResume.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="labelWagesMax.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="radioButtonWorkFull.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;groupBoxOtherInfo.Name" xml:space="preserve">
+    <value>groupBoxOtherInfo</value>
+  </data>
+  <data name="radioButtonGenderMan.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="labelWagesMax.Location" type="System.Drawing.Point, System.Drawing">
+    <value>157, 31</value>
+  </data>
+  <data name="labelPlaceResidence.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="comboBoxMobOperator.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="groupBoxRightsСategory.Size" type="System.Drawing.Size, System.Drawing">
+    <value>184, 75</value>
+  </data>
+  <data name="comboBoxDateDay.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Form1</value>
+  </data>
+  <data name="labelDay.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="textBoxModNum.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="radioButtonWorkExp10_.Text" xml:space="preserve">
+    <value>От 10 и более</value>
+  </data>
+  <data name="labelResume.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="labelYear.Location" type="System.Drawing.Point, System.Drawing">
+    <value>233, 30</value>
+  </data>
+  <data name="labelYear.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="radioButtonWorkExp10_.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="comboBoxMonth.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelWagesMin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>21, 15</value>
+  </data>
+  <data name="groupBoxWages.Size" type="System.Drawing.Size, System.Drawing">
+    <value>303, 75</value>
+  </data>
+  <data name="textBoxResume.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="comboBoxMobOperator.Location" type="System.Drawing.Point, System.Drawing">
+    <value>173, 269</value>
+  </data>
+  <data name="&gt;&gt;labelYear.Parent" xml:space="preserve">
+    <value>groupBoxDateBirth</value>
+  </data>
+  <data name="&gt;&gt;radioButtonWorkExpLess1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;numericUpDownWagesMax.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="textBoxSurname.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="&gt;&gt;labelMob.Name" xml:space="preserve">
+    <value>labelMob</value>
+  </data>
+  <data name="&gt;&gt;labelEmail.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;checkBoxСategoryD.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="radioButtonWorkHome.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 19</value>
+  </data>
+  <data name="&gt;&gt;comboBoxDateDay.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="comboBoxDateDay.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;radioButtonWorkShift.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="radioButtonWorkExp1_5.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelEmail.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 243</value>
+  </data>
+  <data name="numericUpDownWagesMin.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="radioButtonWorkFull.Text" xml:space="preserve">
+    <value>Полная занятость</value>
+  </data>
+  <data name="labelMiddleName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 78</value>
+  </data>
+  <data name="textBoxResume.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="groupBoxOtherInfo.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;labelResume.Name" xml:space="preserve">
+    <value>labelResume</value>
+  </data>
+  <data name="labelSurname.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="groupBoxOtherInfo.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="radioButtonWorkPartial.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelDay.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;checkBoxСategoryD.Name" xml:space="preserve">
+    <value>checkBoxСategoryD</value>
+  </data>
+  <data name="buttonSave.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;buttonInfo.Name" xml:space="preserve">
+    <value>buttonInfo</value>
+  </data>
+  <data name="&gt;&gt;textBoxName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBoxSurname.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radioButtonWorkExpLess1.Name" xml:space="preserve">
+    <value>radioButtonWorkExpLess1</value>
+  </data>
+  <data name="labelMonth.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;buttonClearForm.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="radioButtonGenderMan.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="comboBoxPlaceResidence.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="comboBoxMobOperator.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;radioButtonWorkExp10_.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="radioButtonWorkExp0.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="groupBoxDateBirth.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="checkBoxСategoryC.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="radioButtonWorkExp10_.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="comboBoxMonth.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;buttonSave.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;checkBoxСategoryA.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="labelEmail.Text" xml:space="preserve">
+    <value>Адрес электронной почты</value>
+  </data>
+  <data name="textBoxModNum.HelpString" xml:space="preserve">
+    <value>Write mobile number (format: +375(00)1234567)</value>
+  </data>
+  <data name="textBoxSurname.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;radioButtonGenderWoman.Parent" xml:space="preserve">
+    <value>groupBoxGender</value>
+  </data>
+  <data name="numericUpDownWagesMax.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 23</value>
+  </data>
+  <data name="radioButtonGenderWoman.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBoxСategoryB.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelWagesMin.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="radioButtonWorkExp5_9.Text" xml:space="preserve">
+    <value>От 5 до 9 лет</value>
+  </data>
+  <data name="buttonSave.HelpString" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="radioButtonGenderMan.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 21</value>
+  </data>
+  <data name="comboBoxYear.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="radioButtonWorkExp0.Text" xml:space="preserve">
+    <value>Прежде не работал</value>
+  </data>
+  <data name="labelMonth.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 15</value>
+  </data>
+  <data name="groupBoxWages.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelSurname.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="groupBoxRightsСategory.Text" xml:space="preserve">
+    <value>Категория прав</value>
+  </data>
+  <data name="&gt;&gt;radioButtonWorkExp5_9.Parent" xml:space="preserve">
+    <value>groupBoxWorkExp</value>
+  </data>
+  <data name="&gt;&gt;comboBoxPlaceResidence.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="groupBoxRightsСategory.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="labelName.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;comboBoxMonth.Name" xml:space="preserve">
+    <value>comboBoxMonth</value>
+  </data>
+  <data name="comboBoxYear.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;helpProviderMain.Name" xml:space="preserve">
+    <value>helpProviderMain</value>
+  </data>
+  <data name="radioButtonWorkShift.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="radioButtonGenderWoman.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 46</value>
+  </data>
+  <data name="&gt;&gt;comboBoxPlaceResidence.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="radioButtonGenderWoman.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;checkBoxСategoryD.Parent" xml:space="preserve">
+    <value>groupBoxRightsСategory</value>
+  </data>
+  <data name="radioButtonWorkExp5_9.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="radioButtonWorkExp0.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="&gt;&gt;radioButtonWorkExp10_.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="textBoxEmail.Size" type="System.Drawing.Size, System.Drawing">
+    <value>330, 23</value>
+  </data>
+  <data name="&gt;&gt;radioButtonWorkExp5_9.Name" xml:space="preserve">
+    <value>radioButtonWorkExp5_9</value>
+  </data>
+  <data name="checkBoxСategoryA.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;radioButtonGenderMan.Name" xml:space="preserve">
+    <value>radioButtonGenderMan</value>
+  </data>
+  <data name="numericUpDownWagesMax.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="radioButtonWorkFull.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="radioButtonWorkShift.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="radioButtonWorkExp5_9.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="labelSurname.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="&gt;&gt;checkBoxAuto.Name" xml:space="preserve">
+    <value>checkBoxAuto</value>
+  </data>
+  <data name="textBoxEmail.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="groupBoxWages.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="&gt;&gt;labelResume.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;numericUpDownWagesMin.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="checkBoxСategoryD.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelName.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="labelMonth.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="numericUpDownWagesMin.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;labelResume.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="labelMiddleName.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="labelYear.Text" xml:space="preserve">
+    <value>Год</value>
+  </data>
+  <data name="labelPlaceResidence.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="buttonInfo.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="checkBoxСategoryD.Location" type="System.Drawing.Point, System.Drawing">
+    <value>126, 22</value>
+  </data>
+  <data name="&gt;&gt;labelDay.Parent" xml:space="preserve">
+    <value>groupBoxDateBirth</value>
+  </data>
+  <data name="labelMob.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1110, 621</value>
+  </data>
+  <data name="textBoxMiddleName.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="checkBoxСategoryD.Text" xml:space="preserve">
+    <value>D</value>
+  </data>
+  <data name="&gt;&gt;textBoxResume.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="textBoxEmail.Location" type="System.Drawing.Point, System.Drawing">
+    <value>173, 240</value>
+  </data>
+  <data name="labelWagesMax.Size" type="System.Drawing.Size, System.Drawing">
+    <value>22, 15</value>
+  </data>
+  <data name="groupBoxWorkSchedule.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="checkBoxСategoryD.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="groupBoxGender.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;checkBoxСategoryD.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="textBoxModNum.Location" type="System.Drawing.Point, System.Drawing">
+    <value>229, 269</value>
+  </data>
+  <data name="radioButtonWorkExp5_9.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="labelMiddleName.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="labelMiddleName.Text" xml:space="preserve">
+    <value>Отчество</value>
+  </data>
+  <data name="numericUpDownWagesMax.Location" type="System.Drawing.Point, System.Drawing">
+    <value>184, 27</value>
+  </data>
+  <data name="buttonClearForm.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="groupBoxWorkSchedule.HelpString" xml:space="preserve">
+    <value>Work schedule</value>
+  </data>
+  <data name="&gt;&gt;numericUpDownWagesMin.Parent" xml:space="preserve">
+    <value>groupBoxWages</value>
+  </data>
+  <data name="&gt;&gt;labelName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radioButtonWorkPartial.Name" xml:space="preserve">
+    <value>radioButtonWorkPartial</value>
+  </data>
+  <data name="checkBoxСategoryB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>33, 19</value>
+  </data>
+  <data name="&gt;&gt;numericUpDownWagesMax.Name" xml:space="preserve">
+    <value>numericUpDownWagesMax</value>
+  </data>
+  <data name="labelResume.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;groupBoxWorkSchedule.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="groupBoxDateBirth.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="textBoxSurname.Location" type="System.Drawing.Point, System.Drawing">
+    <value>76, 17</value>
+  </data>
+  <data name="radioButtonWorkExp10_.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;labelPlaceResidence.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;radioButtonWorkExpLess1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelWagesMin.Text" xml:space="preserve">
+    <value>От</value>
+  </data>
+  <data name="&gt;&gt;groupBoxWorkExp.Name" xml:space="preserve">
+    <value>groupBoxWorkExp</value>
+  </data>
+  <data name="&gt;&gt;buttonSave.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="groupBoxDateBirth.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 119</value>
+  </data>
+  <data name="&gt;&gt;labelMonth.Parent" xml:space="preserve">
+    <value>groupBoxDateBirth</value>
+  </data>
+  <data name="comboBoxYear.Location" type="System.Drawing.Point, System.Drawing">
+    <value>233, 48</value>
+  </data>
+  <data name="&gt;&gt;textBoxResume.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBoxName.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelName.Name" xml:space="preserve">
+    <value>labelName</value>
+  </data>
+  <data name="&gt;&gt;radioButtonWorkFull.Name" xml:space="preserve">
+    <value>radioButtonWorkFull</value>
+  </data>
+  <data name="labelMonth.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="labelDay.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 15</value>
+  </data>
+  <data name="textBoxResume.HelpString" xml:space="preserve">
+    <value>Resume</value>
+  </data>
+  <data name="&gt;&gt;textBoxModNum.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="labelMob.Size" type="System.Drawing.Size, System.Drawing">
+    <value>125, 15</value>
+  </data>
+  <data name="&gt;&gt;labelYear.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="groupBoxWorkExp.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 310</value>
+  </data>
+  <data name="labelMiddleName.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;labelMob.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="groupBoxDateBirth.HelpString" xml:space="preserve">
+    <value>Date of birth</value>
+  </data>
+  <data name="groupBoxOtherInfo.Text" xml:space="preserve">
+    <value>Другие сведенья</value>
+  </data>
+  <data name="groupBoxRightsСategory.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="textBoxMiddleName.HelpString" xml:space="preserve">
+    <value>Write midle name</value>
+  </data>
+  <data name="&gt;&gt;comboBoxPlaceResidence.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="radioButtonWorkExp0.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="textBoxResume.Size" type="System.Drawing.Size, System.Drawing">
+    <value>504, 555</value>
+  </data>
+  <data name="labelEmail.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBoxСategoryA.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="checkBoxСategoryB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>46, 22</value>
+  </data>
+  <data name="groupBoxWorkExp.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="groupBoxWorkSchedule.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;labelWagesMax.Name" xml:space="preserve">
+    <value>labelWagesMax</value>
+  </data>
+  <data name="buttonSave.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;radioButtonWorkExp0.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comboBoxDateDay.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;labelMonth.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="radioButtonWorkExp0.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="radioButtonWorkFull.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="textBoxResume.Location" type="System.Drawing.Point, System.Drawing">
+    <value>522, 32</value>
+  </data>
+  <data name="groupBoxGender.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="buttonInfo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 23</value>
+  </data>
+  <data name="radioButtonWorkHome.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 49</value>
+  </data>
+  <data name="&gt;&gt;checkBoxСategoryB.Name" xml:space="preserve">
+    <value>checkBoxСategoryB</value>
+  </data>
+  <data name="textBoxMiddleName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>203, 23</value>
+  </data>
+  <data name="checkBoxСategoryD.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;checkBoxСategoryB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelWagesMax.Text" xml:space="preserve">
+    <value>До</value>
+  </data>
+  <data name="&gt;&gt;labelWagesMin.Parent" xml:space="preserve">
+    <value>groupBoxWages</value>
+  </data>
+  <data name="labelWagesMin.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;textBoxName.Name" xml:space="preserve">
+    <value>textBoxName</value>
+  </data>
+  <data name="checkBoxСategoryC.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;checkBoxСategoryC.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="radioButtonWorkExp5_9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 19</value>
+  </data>
+  <data name="labelWagesMax.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="radioButtonWorkExp10_.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="groupBoxDateBirth.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;textBoxEmail.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="groupBoxGender.Location" type="System.Drawing.Point, System.Drawing">
+    <value>342, 12</value>
+  </data>
+  <data name="&gt;&gt;checkBoxAuto.Parent" xml:space="preserve">
+    <value>groupBoxOtherInfo</value>
+  </data>
+  <data name="labelResume.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;groupBoxDateBirth.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="labelWagesMax.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="comboBoxYear.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 23</value>
+  </data>
+  <data name="groupBoxWorkSchedule.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;comboBoxYear.Name" xml:space="preserve">
+    <value>comboBoxYear</value>
+  </data>
+  <data name="groupBoxDateBirth.Text" xml:space="preserve">
+    <value>Дата рождения</value>
+  </data>
+  <data name="textBoxName.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="labelSurname.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 20</value>
+  </data>
+  <data name="labelMob.Text" xml:space="preserve">
+    <value>Мобильный телефон</value>
+  </data>
+  <data name="&gt;&gt;labelWagesMin.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBoxWorkSchedule.Name" xml:space="preserve">
+    <value>groupBoxWorkSchedule</value>
+  </data>
+  <data name="&gt;&gt;labelEmail.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelEmail.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="checkBoxСategoryB.Text" xml:space="preserve">
+    <value>B</value>
+  </data>
+  <data name="&gt;&gt;comboBoxYear.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="checkBoxСategoryA.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 19</value>
+  </data>
+  <data name="&gt;&gt;buttonClearForm.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="checkBoxDriversLicense.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="$this.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;labelName.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="radioButtonWorkShift.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="radioButtonGenderMan.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="textBoxName.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="comboBoxPlaceResidence.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="radioButtonGenderMan.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;radioButtonWorkShift.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="radioButtonWorkPartial.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="textBoxName.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="comboBoxMonth.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="checkBoxСategoryD.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;textBoxModNum.Name" xml:space="preserve">
+    <value>textBoxModNum</value>
+  </data>
+  <data name="groupBoxDateBirth.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="checkBoxAuto.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 19</value>
+  </data>
+  <data name="&gt;&gt;comboBoxMobOperator.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="radioButtonWorkShift.Size" type="System.Drawing.Size, System.Drawing">
+    <value>122, 19</value>
+  </data>
+  <data name="&gt;&gt;radioButtonGenderMan.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="numericUpDownWagesMin.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="radioButtonWorkFull.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="radioButtonWorkExp0.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;labelWagesMax.Parent" xml:space="preserve">
+    <value>groupBoxWages</value>
+  </data>
+  <data name="&gt;&gt;buttonInfo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="comboBoxPlaceResidence.Size" type="System.Drawing.Size, System.Drawing">
+    <value>330, 23</value>
+  </data>
+  <data name="labelEmail.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;labelMob.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;checkBoxDriversLicense.Name" xml:space="preserve">
+    <value>checkBoxDriversLicense</value>
+  </data>
+  <data name="&gt;&gt;groupBoxDateBirth.Name" xml:space="preserve">
+    <value>groupBoxDateBirth</value>
+  </data>
+  <data name="textBoxModNum.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;checkBoxDriversLicense.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="labelResume.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 15</value>
+  </data>
+  <data name="textBoxSurname.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="textBoxSurname.Size" type="System.Drawing.Size, System.Drawing">
+    <value>203, 23</value>
+  </data>
+  <data name="labelDay.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="checkBoxAuto.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;labelPlaceResidence.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="labelName.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="labelDay.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="checkBoxСategoryC.Text" xml:space="preserve">
+    <value>C</value>
+  </data>
+  <data name="labelPlaceResidence.Size" type="System.Drawing.Size, System.Drawing">
+    <value>114, 15</value>
+  </data>
+  <data name="radioButtonWorkExpLess1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="radioButtonWorkShift.Location" type="System.Drawing.Point, System.Drawing">
+    <value>157, 49</value>
+  </data>
+  <data name="groupBoxOtherInfo.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBoxDriversLicense.Text" xml:space="preserve">
+    <value>Водительское удостоверение</value>
+  </data>
+  <data name="&gt;&gt;radioButtonWorkExp0.Name" xml:space="preserve">
+    <value>radioButtonWorkExp0</value>
+  </data>
+  <data name="&gt;&gt;radioButtonWorkExp0.Parent" xml:space="preserve">
+    <value>groupBoxWorkExp</value>
+  </data>
+  <data name="&gt;&gt;labelMob.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="buttonSave.Location" type="System.Drawing.Point, System.Drawing">
+    <value>369, 593</value>
+  </data>
+  <data name="labelMonth.Location" type="System.Drawing.Point, System.Drawing">
+    <value>80, 30</value>
+  </data>
+  <data name="groupBoxGender.HelpString" xml:space="preserve">
+    <value>Choose gender</value>
+  </data>
+  <data name="radioButtonWorkShift.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="numericUpDownWagesMin.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="buttonInfo.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="radioButtonWorkPartial.Size" type="System.Drawing.Size, System.Drawing">
+    <value>139, 19</value>
+  </data>
+  <data name="&gt;&gt;labelMiddleName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBoxСategoryA.Name" xml:space="preserve">
+    <value>checkBoxСategoryA</value>
+  </data>
+  <data name="groupBoxGender.Size" type="System.Drawing.Size, System.Drawing">
+    <value>174, 86</value>
+  </data>
+  <data name="comboBoxMonth.Location" type="System.Drawing.Point, System.Drawing">
+    <value>80, 48</value>
+  </data>
+  <data name="numericUpDownWagesMin.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="labelSurname.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelName.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="comboBoxPlaceResidence.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;labelMonth.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="labelWagesMax.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelMonth.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;groupBoxGender.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="radioButtonWorkPartial.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;radioButtonWorkExp10_.Parent" xml:space="preserve">
+    <value>groupBoxWorkExp</value>
+  </data>
+  <data name="groupBoxWages.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="radioButtonWorkPartial.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;radioButtonWorkExp0.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="checkBoxСategoryC.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;checkBoxСategoryC.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;labelMiddleName.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="comboBoxMonth.HelpString" xml:space="preserve">
+    <value>Month date of birth</value>
+  </data>
+  <data name="comboBoxMobOperator.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="textBoxMiddleName.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBoxAuto.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="checkBoxAuto.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 31</value>
+  </data>
+  <data name="buttonClearForm.Location" type="System.Drawing.Point, System.Drawing">
+    <value>228, 593</value>
+  </data>
+  <data name="radioButtonWorkExp10_.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 19</value>
+  </data>
+  <data name="textBoxModNum.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;textBoxEmail.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="checkBoxСategoryB.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;numericUpDownWagesMax.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="radioButtonWorkExpLess1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 57</value>
+  </data>
+  <data name="&gt;&gt;groupBoxWorkSchedule.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radioButtonWorkFull.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="textBoxEmail.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;numericUpDownWagesMin.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="labelResume.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBoxСategoryD.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 19</value>
+  </data>
+  <data name="labelYear.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="labelYear.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="checkBoxСategoryA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 22</value>
+  </data>
+  <data name="checkBoxСategoryC.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 19</value>
+  </data>
+  <data name="&gt;&gt;textBoxEmail.Name" xml:space="preserve">
+    <value>textBoxEmail</value>
+  </data>
+  <data name="&gt;&gt;numericUpDownWagesMax.Parent" xml:space="preserve">
+    <value>groupBoxWages</value>
+  </data>
+  <data name="buttonSave.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="labelMob.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="radioButtonGenderMan.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 19</value>
+  </data>
+  <data name="radioButtonWorkExp5_9.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelPlaceResidence.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="&gt;&gt;radioButtonWorkPartial.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="checkBoxСategoryA.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;labelResume.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radioButtonWorkShift.Name" xml:space="preserve">
+    <value>radioButtonWorkShift</value>
+  </data>
+  <data name="textBoxResume.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;checkBoxDriversLicense.Parent" xml:space="preserve">
+    <value>groupBoxOtherInfo</value>
+  </data>
+  <data name="textBoxModNum.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="comboBoxPlaceResidence.Location" type="System.Drawing.Point, System.Drawing">
+    <value>173, 211</value>
+  </data>
+  <data name="&gt;&gt;checkBoxСategoryB.Parent" xml:space="preserve">
+    <value>groupBoxRightsСategory</value>
+  </data>
+  <data name="groupBoxWorkSchedule.Location" type="System.Drawing.Point, System.Drawing">
+    <value>213, 497</value>
+  </data>
+  <data name="radioButtonWorkExp0.HelpString" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="groupBoxRightsСategory.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="radioButtonWorkExp0.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 19</value>
+  </data>
+  <data name="&gt;&gt;comboBoxMonth.Parent" xml:space="preserve">
+    <value>groupBoxDateBirth</value>
+  </data>
+  <data name="labelWagesMin.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="labelName.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBoxСategoryB.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="groupBoxWorkExp.HelpKeyword" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;radioButtonGenderMan.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="radioButtonGenderWoman.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="radioButtonWorkExp5_9.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="radioButtonWorkHome.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelMonth.Text" xml:space="preserve">
+    <value>Месяц</value>
+  </data>
+  <data name="checkBoxСategoryC.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;radioButtonWorkFull.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBoxWorkExp.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;radioButtonWorkExp1_5.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;comboBoxPlaceResidence.Name" xml:space="preserve">
+    <value>comboBoxPlaceResidence</value>
+  </data>
+  <data name="radioButtonWorkShift.Text" xml:space="preserve">
+    <value>Посменая работа</value>
+  </data>
+  <data name="&gt;&gt;comboBoxDateDay.Name" xml:space="preserve">
+    <value>comboBoxDateDay</value>
+  </data>
+  <data name="radioButtonGenderWoman.CheckAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopLeft</value>
+  </data>
+  <data name="radioButtonWorkExp5_9.HelpNavigator" type="System.Windows.Forms.HelpNavigator, System.Windows.Forms">
+    <value>AssociateIndex</value>
+  </data>
+  <data name="&gt;&gt;textBoxMiddleName.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="helpProviderMain.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, System.Private.CoreLib, Culture=neutral, PublicKeyToken=7cec85d7bea7798e">
+    <value>en-001</value>
+  </metadata>
 </root>
