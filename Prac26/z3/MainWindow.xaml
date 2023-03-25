@@ -1,0 +1,41 @@
+﻿<Window x:Class="z3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:lvc="clr-namespace:LiveCharts.Wpf;assembly=LiveCharts.Wpf"
+        xmlns:local="clr-namespace:z3"
+        
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="3*"/>
+        </Grid.ColumnDefinitions>
+
+        <StackPanel>
+            <Label Grid.Row="0" Content="Введите min x: "/>
+            <TextBox x:Name="textBoxMinX"/>
+            <Label Grid.Row="0" Content="Введите max x: "/>
+            <TextBox x:Name="textBoxMaxX"/>
+            <Button x:Name="buttonCaculate"
+                    Click="buttonCaculate_Click"
+                    Content="Построить график"/>
+        </StackPanel>
+
+        <lvc:CartesianChart x:Name="chart" Grid.Column="1" >
+            <lvc:CartesianChart.AxisY>
+                <lvc:Axis Name="Axis">
+                    <lvc:Axis.Sections>
+                        <lvc:AxisSection>
+                            <lvc:AxisSection.Fill>
+                                <SolidColorBrush Color="#A3A3FF" Opacity=".4"></SolidColorBrush>
+                            </lvc:AxisSection.Fill>
+                        </lvc:AxisSection>
+                    </lvc:Axis.Sections>
+                </lvc:Axis>
+            </lvc:CartesianChart.AxisY>
+        </lvc:CartesianChart>
+    </Grid>
+</Window>
