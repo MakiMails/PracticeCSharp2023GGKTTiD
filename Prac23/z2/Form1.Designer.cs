@@ -152,6 +152,7 @@
             this.Controls.Add(this.labelNumX);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.groupBoxRBFc.ResumeLayout(false);
             this.groupBoxRBFc.PerformLayout();
             this.ResumeLayout(false);

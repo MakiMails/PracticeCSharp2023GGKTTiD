@@ -134,6 +134,7 @@
             this.Controls.Add(this.chartMain);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.chartMain)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

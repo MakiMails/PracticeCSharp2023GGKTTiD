@@ -10,7 +10,5 @@
         <Button Content="Перетасваемая Кнопка" HorizontalAlignment="Left" Margin="195,217,0,0" VerticalAlignment="Top"/>
         <Button Content="BoubleClick" Margin="395,217,100,100"/>
         <Button Content="XAML добавленная кнопка" Margin="100,100,500,300"/>
-
-
     </Grid>
 </Window>

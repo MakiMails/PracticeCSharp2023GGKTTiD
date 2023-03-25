@@ -53,7 +53,5 @@
                 Grid.ColumnSpan="2"
                 Margin="80,10"
                 Content="Закрыть"/>
-
-
     </Grid>
 </Window>

@@ -2,16 +2,11 @@
 using LiveCharts.Wpf;
 using LiveCharts;
 using System;
-using System.Linq;
 using System.Windows;
 using System.Windows.Media;
-using LiveCharts.Definitions.Series;
 
 namespace z3
 {
-    /// <summary>
-    /// Логика взаимодействия для MainWindow.xaml
-    /// </summary>
     public partial class MainWindow : Window
     {
 
