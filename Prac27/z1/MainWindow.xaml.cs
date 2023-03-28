@@ -10,12 +10,5 @@ namespace z1
             InitializeComponent();
             DataContext = new MainWindowsViewModel();
         }
-
-        private void buttonAdd_Click(object sender, RoutedEventArgs e)
-        {
-            AddAuto addAuto = new(this);
-            addAuto.Show();
-            IsEnabled = false;
-        }
     }
 }
