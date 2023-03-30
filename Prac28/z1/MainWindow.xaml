@@ -1,0 +1,99 @@
+﻿<Window x:Class="z1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:z1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid x:Name="mainGrid">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="3*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition />
+        </Grid.RowDefinitions>
+
+        <ScrollViewer Grid.Column="0"
+                        Grid.Row="0" Grid.RowSpan="4">
+            <StackPanel>
+                <StackPanel Grid.Column="0" Grid.Row="0">
+                    <Button x:Name="buttonOpenFile"
+                    Content="Открыть файл"
+                    Command="{Binding Open}"/>
+                </StackPanel>
+                <Expander Grid.Column="0"
+                  Grid.Row="1"
+                  Header="Добавление машины">
+                    <StackPanel>
+                        <StackPanel Margin="10,5">
+                            <Label Content="Марка:"/>
+                            <TextBox Text="{Binding Stamp, UpdateSourceTrigger=PropertyChanged}"/>
+                        </StackPanel>
+                        <StackPanel Margin="10,5">
+                            <Label Content="Год выпуска:"/>
+                            <TextBox Text="{Binding YearRelease, UpdateSourceTrigger=PropertyChanged}"/>
+                        </StackPanel>
+                        <StackPanel Margin="10,5">
+                            <Label Content="Срок аренды стоянки(дни):"/>
+                            <TextBox Text="{Binding ParkingRentalPeriod, UpdateSourceTrigger=PropertyChanged}"
+                         MinWidth="150"/>
+                        </StackPanel>
+                        <Button Content="Добавить"
+                    Command="{Binding Add}"/>
+                    </StackPanel>
+                </Expander>
+                <Expander Grid.Column="0"
+                    Grid.Row="2"
+                          Header="Функцирнальность">
+                    <StackPanel>
+                        <StackPanel Margin="10,5">
+                            <Label Content="Id:"/>
+                            <TextBox x:Name="textBoxId" MinWidth="150"/>
+                        </StackPanel>
+                        <Button Content="Найти"
+                    Command="{Binding ToFind}"
+                    CommandParameter="{Binding ElementName=textBoxId, Path=Text}"/>
+                        <Button Content="Удалить"
+                    Command="{Binding Delete}"
+                    CommandParameter="{Binding ElementName=textBoxId, Path=Text}"/>
+                    </StackPanel>
+                </Expander>
+                <Expander Grid.Column="0"
+                          Grid.Row="3"
+                          Header="Компоненты">
+                    <StackPanel>
+                        <GroupBox Header="Способ компоновки">
+                            <StackPanel>
+                                <RadioButton x:Name="rabioButtonTextBox" Command="{Binding CheckedComp}"
+                                             CommandParameter="{Binding ElementName=rabioButtonTextBox,Path=Content}"
+                                             Margin="0,5"
+                                             Content="TextBox"/>
+                                <RadioButton x:Name="rabioButtonTreeView" Command="{Binding CheckedComp}"
+                                             CommandParameter="{Binding ElementName=rabioButtonTreeView,Path=Content}"
+                                             Margin="0,5"
+                                             Content="TreeView"/>
+                                <RadioButton x:Name="rabioButtonListBox" Command="{Binding CheckedComp}"
+                                             CommandParameter="{Binding ElementName=rabioButtonListBox,Path=Content}"
+                                             IsChecked="True"
+                                             Margin="0,5"
+                                             Content="ListBox"/>
+                            </StackPanel>
+                        </GroupBox>
+                    </StackPanel>
+                </Expander>
+            </StackPanel>
+        </ScrollViewer>
+        <ScrollViewer Grid.Column="1"
+                 Grid.Row="0"
+                 Grid.RowSpan="4"
+                 x:Name="s"
+                      Content="{Binding ContentComp}">
+
+        </ScrollViewer>
+    </Grid>
+</Window>

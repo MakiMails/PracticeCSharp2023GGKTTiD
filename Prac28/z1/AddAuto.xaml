@@ -1,0 +1,54 @@
+﻿<Window x:Class="z1.AddAuto"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:z1"
+        mc:Ignorable="d"
+        Title="Добовление автомобиля" Height="250" Width="400"
+        Closed="Window_Closed">
+    <Grid Margin="0,0,0,7">
+        <StackPanel>
+            <StackPanel Margin="10,5">
+                <Label x:Name="textBoxStamp"
+                       Content="Марка:"/>
+                <TextBox MinWidth="150"/>
+            </StackPanel>
+            <StackPanel x:Name="textBoxYearRelease"
+                        Margin="10,5">
+                <Label Content="Год выпуска:"/>
+                <TextBox />
+            </StackPanel>
+            <StackPanel Margin="10,5">
+                <Label Content="Срок аренды стоянки(дни):"/>
+                <TextBox x:Name="textBoxParkingRentalPeriod"
+                         MinWidth="150"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal"
+                        HorizontalAlignment="Right"
+                        Margin="10,5">
+                <Button HorizontalAlignment="Center"
+                        VerticalAlignment="Center" 
+                        Margin="5"
+                        Padding="15,2"
+                        Background="Red"
+                        Content="Отмена"/>
+                <Button x:Name="buttonClear"
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Center"
+                        Margin="5"
+                    Padding="15,2"
+                    Content="Очистить"/>
+                <Button x:Name="buttonAdd"
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Center"
+                        Margin="5"
+                    Padding="15,2"
+                        Background="Lime"
+                    Content="Добавить"/>
+
+            </StackPanel>
+
+        </StackPanel>
+    </Grid>
+</Window>
